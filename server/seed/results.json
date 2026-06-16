@@ -1,0 +1,163 @@
+[
+  {
+    "id": "ger-cuw",
+    "group": "E",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "GER",
+      "name": "독일",
+      "flag": "🇩🇪"
+    },
+    "away": {
+      "code": "CUW",
+      "name": "퀴라소",
+      "flag": "🇨🇼"
+    },
+    "homeScore": 7,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "독일, 월드컵 데뷔국 퀴라소에 7-1 대승…우승후보다운 화력",
+    "source": "한국일보",
+    "link": "https://n.news.naver.com/mnews/article/469/0000936481?sid=104",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%8F%85%EC%9D%BC%20%ED%80%B4%EB%9D%BC%EC%86%8C%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-15T06:18:00+09:00"
+  },
+  {
+    "id": "kor-cze",
+    "group": "A",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "KOR",
+      "name": "대한민국",
+      "flag": "🇰🇷"
+    },
+    "away": {
+      "code": "CZE",
+      "name": "체코",
+      "flag": "🇨🇿"
+    },
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "한국, 체코 꺾고 2-1 역전승…16년 만의 월드컵 첫 경기 승리",
+    "source": "네이버스포츠",
+    "link": "https://m.sports.naver.com/worldcup2026/article/425/0000194557",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%B2%B4%EC%BD%94%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-12T13:00:00+09:00"
+  },
+  {
+    "id": "mex-rsa",
+    "group": "A",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "MEX",
+      "name": "멕시코",
+      "flag": "🇲🇽"
+    },
+    "away": {
+      "code": "RSA",
+      "name": "남아프리카공화국",
+      "flag": "🇿🇦"
+    },
+    "homeScore": 2,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "멕시코, 남아공 2-0 완승…개최국 위용 과시한 산뜻한 출발",
+    "source": "연합뉴스",
+    "link": "https://www.yna.co.kr/sports/worldcup",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%A9%95%EC%8B%9C%EC%BD%94%20%EB%82%A8%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EA%B3%B5%ED%99%94%EA%B5%AD%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-13T11:00:00+09:00"
+  },
+  {
+    "id": "civ-ecu",
+    "group": "E",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "CIV",
+      "name": "코트디부아르",
+      "flag": "🇨🇮"
+    },
+    "away": {
+      "code": "ECU",
+      "name": "에콰도르",
+      "flag": "🇪🇨"
+    },
+    "homeScore": 1,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "디알로 후반 45분 극장골…코트디부아르, 에콰도르 1-0 격파",
+    "source": "노컷뉴스",
+    "link": "https://n.news.naver.com/mnews/article/079/0004157739?sid=104",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%BD%94%ED%8A%B8%EB%94%94%EB%B6%80%EC%95%84%EB%A5%B4%20%EC%97%90%EC%BD%B0%EB%8F%84%EB%A5%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-15T10:15:00+09:00"
+  },
+  {
+    "id": "ned-jpn",
+    "group": "F",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "NED",
+      "name": "네덜란드",
+      "flag": "🇳🇱"
+    },
+    "away": {
+      "code": "JPN",
+      "name": "일본",
+      "flag": "🇯🇵"
+    },
+    "homeScore": 2,
+    "awayScore": 2,
+    "status": "FT",
+    "headline": "일본, 후반 44분 가마다 극장 동점골…네덜란드와 2-2 무승부",
+    "source": "한국일보",
+    "link": "https://n.news.naver.com/mnews/article/469/0000936472?sid=104",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C%20%EC%9D%BC%EB%B3%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-15T07:50:00+09:00"
+  },
+  {
+    "id": "qat-sui",
+    "group": "B",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "QAT",
+      "name": "카타르",
+      "flag": "🇶🇦"
+    },
+    "away": {
+      "code": "SUI",
+      "name": "스위스",
+      "flag": "🇨🇭"
+    },
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "카타르-스위스 1-1 무승부…스위스, 경기 주도하고도 승점 1점",
+    "source": "베스트일레븐",
+    "link": "https://m.sports.naver.com/worldcup2026/article/343/0000143650",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%B9%B4%ED%83%80%EB%A5%B4%20%EC%8A%A4%EC%9C%84%EC%8A%A4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-14T13:28:00+09:00"
+  },
+  {
+    "id": "usa-par",
+    "group": "D",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "USA",
+      "name": "미국",
+      "flag": "🇺🇸"
+    },
+    "away": {
+      "code": "PAR",
+      "name": "파라과이",
+      "flag": "🇵🇾"
+    },
+    "homeScore": 4,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "개최국 미국, 파라과이 4-1 완파…전반에 승부 갈랐다",
+    "source": "STN스포츠",
+    "link": "https://m.sports.naver.com/worldcup2026/article/450/0000151921",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%AF%B8%EA%B5%AD%20%ED%8C%8C%EB%9D%BC%EA%B3%BC%EC%9D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-13T17:21:00+09:00"
+  }
+]

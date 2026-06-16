@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WORLD CUP 2026 · 매치 대시보드</title>
+  <meta name="description" content="네이버 검색 기반 2026 북중미 월드컵 경기 결과 · 하이라이트 대시보드" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23101826'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%2325d0e6'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__crest">▲</span>
+      <div class="topbar__titles">
+        <h1 class="topbar__title">WORLD CUP <span>2026</span></h1>
+        <p class="topbar__sub">북중미 · MATCH CENTRE</p>
+      </div>
+    </div>
+    <div class="topbar__meta">
+      <span id="liveBadge" class="badge badge--live">● LIVE</span>
+      <span id="sourceBadge" class="badge badge--seed" title="데이터 출처">SEED</span>
+      <span id="updatedAt" class="topbar__updated">—</span>
+      <button id="refreshBtn" class="btn-refresh" type="button" aria-label="새로고침">⟳ 새로고침</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- 경기 결과 -->
+    <section class="panel panel--results" aria-labelledby="results-h">
+      <div class="panel__head">
+        <h2 id="results-h" class="panel__title">경기 결과 <span class="panel__title-en">RESULTS</span></h2>
+        <span id="resultsCount" class="panel__count"></span>
+      </div>
+      <div id="resultsGrid" class="results-grid" aria-live="polite"></div>
+    </section>
+
+    <!-- 하이라이트 -->
+    <section class="panel panel--highlights" aria-labelledby="hl-h">
+      <div class="panel__head">
+        <h2 id="hl-h" class="panel__title">하이라이트 <span class="panel__title-en">HIGHLIGHTS</span></h2>
+      </div>
+      <div id="highlightFeed" class="hl-feed" aria-live="polite"></div>
+    </section>
+
+    <!-- 경기 일정 -->
+    <section class="panel panel--fixtures" aria-labelledby="fx-h">
+      <div class="panel__head">
+        <h2 id="fx-h" class="panel__title">경기 일정 <span class="panel__title-en">FIXTURES</span></h2>
+      </div>
+      <div id="fixtureList" class="fixture-list"></div>
+    </section>
+
+    <!-- 순위표 -->
+    <section class="panel panel--standings" aria-labelledby="st-h">
+      <div class="panel__head">
+        <h2 id="st-h" class="panel__title">조별 순위 <span class="panel__title-en">STANDINGS</span></h2>
+        <div id="groupTabs" class="group-tabs" role="tablist"></div>
+      </div>
+      <div id="standingsTable" class="standings-wrap"></div>
+      <div id="standingsNews" class="standings-news"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>데이터: 네이버 검색 · best-effort 파싱</span>
+    <span class="footer__dot">·</span>
+    <span id="footerMode">시드 모드 (네이버 API 키 미설정)</span>
+  </footer>
+
+  <script src="./js/api.js"></script>
+  <script src="./js/render.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+/* ============================================================
+   FM2026 디자인 토큰 — 다크 네이비 + 시안 액센트
+   ============================================================ */
+:root {
+  /* 배경 계층 */
+  --bg-0: #070b12;          /* 페이지 최하단 */
+  --bg-1: #0b111c;          /* 레이아웃 */
+  --panel: #101826;         /* 패널 카드 */
+  --panel-2: #0d1521;       /* 패널 내부 강조 영역 */
+  --row: #0f1828;           /* 테이블 행 */
+  --row-alt: #0c1420;       /* 테이블 행 교차 */
+  --elev: #162133;          /* 떠있는 요소(호버) */
+
+  /* 보더/디바이더 */
+  --line: #1c2940;
+  --line-soft: #16223550;
+
+  /* 텍스트 */
+  --text: #e8eef7;
+  --text-dim: #9fb0c7;
+  --text-mute: #64758c;
+
+  /* 액센트 */
+  --cyan: #25d0e6;
+  --cyan-bright: #5ce5f5;
+  --cyan-deep: #0e7d8c;
+  --green: #38d39f;         /* 승 */
+  --amber: #f4c152;         /* 무 */
+  --red: #f0697a;           /* 패 */
+  --gold: #e7c66b;
+
+  /* 액센트 글로우 */
+  --glow-cyan: 0 0 0 1px #25d0e633, 0 6px 24px -10px #25d0e655;
+
+  /* 타이포 */
+  --font-head: "Archivo Narrow", "Archivo", "Noto Sans KR", system-ui, sans-serif;
+  --font-body: "Archivo", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "Consolas", ui-monospace, monospace;
+
+  /* 반경/간격 */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --gap: 16px;
+
+  /* 그림자 */
+  --shadow: 0 18px 40px -24px #000c, 0 2px 0 0 #ffffff06 inset;
+}
