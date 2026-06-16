@@ -8,6 +8,8 @@ const naver = require('./naver');
 const parser = require('./parser');
 const cache = require('./cache');
 const standings = require('./standings');
+const teamsMod = require('./teams');
+const playersEngine = require('./players');
 
 // ── 의존성 없이 .env 로드 (dotenv 미사용) ───────────────────────────────
 function loadEnv() {
@@ -116,6 +118,31 @@ app.get('/api/standings', async (_req, res) => {
   }
 });
 
+// ── /api/team/:code : 팀 선수단 + 월드컵 기록(치른 결과에서 산출) ───────
+const GROUP_OF = {};
+for (const [g, codes] of Object.entries(groups)) for (const c of codes) GROUP_OF[c] = g;
+
+app.get('/api/team/:code', (req, res) => {
+  const code = String(req.params.code || '').toUpperCase();
+  const group = GROUP_OF[code];
+  if (!group) return res.status(404).json({ error: 'unknown_team', code });
+
+  const updatedAt = new Date().toISOString();
+  const data = playersEngine.getTeam(code, seed.results);
+  if (!data) {
+    // 조에는 있으나 명단 미작성 — 페이지가 "명단 준비중"으로 안전하게 표시
+    const t = teamsMod.get(code);
+    return res.json({
+      source: 'seed', updatedAt, group, rosterReady: false,
+      team: { code: t.code, name: t.name, flag: t.flag }, summary: null, data: [],
+    });
+  }
+  res.json({
+    source: 'seed', updatedAt, group: data.group, rosterReady: true,
+    team: data.team, summary: data.summary, data: data.players,
+  });
+});
+
 // ── 상태 (디버그용) ────────────────────────────────────────────────────
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true, mode: naver.hasKeys() ? 'live' : 'seed', time: new Date().toISOString() });
@@ -124,7 +151,13 @@ app.get('/api/health', (_req, res) => {
 // ── 정적 프런트 ────────────────────────────────────────────────────────
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-app.listen(PORT, () => {
-  const mode = naver.hasKeys() ? '실시간(네이버 API)' : '시드(키 없음)';
-  console.log(`⚽ 월드컵 대시보드 실행 중 → http://localhost:${PORT}  [${mode}]`);
-});
+// 로컬(node server/server.js)에서 직접 실행할 때만 listen.
+// Vercel 등 서버리스에서는 app 을 핸들러로 export (listen 안 함).
+if (require.main === module) {
+  app.listen(PORT, () => {
+    const mode = naver.hasKeys() ? '실시간(네이버 API)' : '시드(키 없음)';
+    console.log(`⚽ 월드컵 대시보드 실행 중 → http://localhost:${PORT}  [${mode}]`);
+  });
+}
+
+module.exports = app;

@@ -20,7 +20,43 @@
     "source": "한국일보",
     "link": "https://n.news.naver.com/mnews/article/469/0000936481?sid=104",
     "highlightLink": "https://www.youtube.com/results?search_query=%EB%8F%85%EC%9D%BC%20%ED%80%B4%EB%9D%BC%EC%86%8C%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-15T06:18:00+09:00"
+    "publishedAt": "2026-06-15T06:18:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "펠릭스 은메차",
+        "assist": "플로리안 비르츠"
+      },
+      {
+        "scorer": "니코 슐로터벡",
+        "assist": "나타니엘 브라운"
+      },
+      {
+        "scorer": "카이 하베르츠",
+        "assist": null
+      },
+      {
+        "scorer": "자말 무시알라",
+        "assist": "요주아 키미히"
+      },
+      {
+        "scorer": "나타니엘 브라운",
+        "assist": "데니즈 운디아우"
+      },
+      {
+        "scorer": "데니즈 운디아우",
+        "assist": "요주아 키미히"
+      },
+      {
+        "scorer": "카이 하베르츠",
+        "assist": "데니즈 운디아우"
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "리바노 코메넨시아",
+        "assist": null
+      }
+    ]
   },
   {
     "id": "kor-cze",
@@ -43,7 +79,30 @@
     "source": "네이버스포츠",
     "link": "https://m.sports.naver.com/worldcup2026/article/425/0000194557",
     "highlightLink": "https://www.youtube.com/results?search_query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%B2%B4%EC%BD%94%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-12T13:00:00+09:00"
+    "publishedAt": "2026-06-12T13:00:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "황인범",
+        "assist": null
+      },
+      {
+        "scorer": "오현규",
+        "assist": null
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "라디슬라프 크레이치",
+        "assist": null
+      }
+    ],
+    "homeSubs": [
+      {
+        "off": "손흥민",
+        "on": "오현규",
+        "min": 69
+      }
+    ]
   },
   {
     "id": "mex-rsa",
@@ -66,7 +125,18 @@
     "source": "연합뉴스",
     "link": "https://www.yna.co.kr/sports/worldcup",
     "highlightLink": "https://www.youtube.com/results?search_query=%EB%A9%95%EC%8B%9C%EC%BD%94%20%EB%82%A8%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EA%B3%B5%ED%99%94%EA%B5%AD%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-13T11:00:00+09:00"
+    "publishedAt": "2026-06-13T11:00:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "훌리안 퀴노네스",
+        "assist": null
+      },
+      {
+        "scorer": "라울 히메네스",
+        "assist": null
+      }
+    ],
+    "awayGoals": []
   },
   {
     "id": "civ-ecu",
@@ -89,7 +159,14 @@
     "source": "노컷뉴스",
     "link": "https://n.news.naver.com/mnews/article/079/0004157739?sid=104",
     "highlightLink": "https://www.youtube.com/results?search_query=%EC%BD%94%ED%8A%B8%EB%94%94%EB%B6%80%EC%95%84%EB%A5%B4%20%EC%97%90%EC%BD%B0%EB%8F%84%EB%A5%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-15T10:15:00+09:00"
+    "publishedAt": "2026-06-15T10:15:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "아마드 디알로",
+        "assist": null
+      }
+    ],
+    "awayGoals": []
   },
   {
     "id": "ned-jpn",
@@ -112,7 +189,23 @@
     "source": "한국일보",
     "link": "https://n.news.naver.com/mnews/article/469/0000936472?sid=104",
     "highlightLink": "https://www.youtube.com/results?search_query=%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C%20%EC%9D%BC%EB%B3%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-15T07:50:00+09:00"
+    "publishedAt": "2026-06-15T07:50:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "버질 반 다이크",
+        "assist": null
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "나카무라 게이토",
+        "assist": null
+      },
+      {
+        "scorer": "가마다 다이치",
+        "assist": null
+      }
+    ]
   },
   {
     "id": "qat-sui",
@@ -135,7 +228,19 @@
     "source": "베스트일레븐",
     "link": "https://m.sports.naver.com/worldcup2026/article/343/0000143650",
     "highlightLink": "https://www.youtube.com/results?search_query=%EC%B9%B4%ED%83%80%EB%A5%B4%20%EC%8A%A4%EC%9C%84%EC%8A%A4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-14T13:28:00+09:00"
+    "publishedAt": "2026-06-14T13:28:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "부알렘 쿠키",
+        "assist": "호맘 아흐메드"
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "브릴 엠볼로",
+        "assist": null
+      }
+    ]
   },
   {
     "id": "usa-par",
@@ -158,6 +263,112 @@
     "source": "STN스포츠",
     "link": "https://m.sports.naver.com/worldcup2026/article/450/0000151921",
     "highlightLink": "https://www.youtube.com/results?search_query=%EB%AF%B8%EA%B5%AD%20%ED%8C%8C%EB%9D%BC%EA%B3%BC%EC%9D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
-    "publishedAt": "2026-06-13T17:21:00+09:00"
+    "publishedAt": "2026-06-13T17:21:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "폴린하 발로건",
+        "assist": "크리스천 풀리식"
+      },
+      {
+        "scorer": "폴린하 발로건",
+        "assist": null
+      },
+      {
+        "scorer": "지오바니 레이나",
+        "assist": null
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "마우리시우",
+        "assist": null
+      }
+    ]
+  },
+  {
+    "id": "uru-ksa",
+    "group": "C",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "URU",
+      "name": "우루과이",
+      "flag": "🇺🇾"
+    },
+    "away": {
+      "code": "KSA",
+      "name": "사우디아라비아",
+      "flag": "🇸🇦"
+    },
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "우루과이, 사우디와 1-1 무승부…후반 아라우호 동점골",
+    "source": "스포티비뉴스",
+    "link": "https://m.sports.naver.com/worldcup2026/article/477/0000613636",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4%20%EC%82%AC%EC%9A%B0%EB%94%94%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-16T05:30:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "막시밀리아노 아라우호",
+        "assist": null
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "압둘라예 알 암리",
+        "assist": null
+      }
+    ]
+  },
+  {
+    "id": "swe-tun",
+    "group": "F",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "SWE",
+      "name": "스웨덴",
+      "flag": "🇸🇪"
+    },
+    "away": {
+      "code": "TUN",
+      "name": "튀니지",
+      "flag": "🇹🇳"
+    },
+    "homeScore": 5,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "스웨덴, 튀니지 5-1 완파…아야리 멀티골로 F조 선두",
+    "source": "한국일보",
+    "link": "https://www.hankooki.com/news/articleView.html?idxno=335786",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%8A%A4%EC%9B%A8%EB%8D%B4%20%ED%8A%80%EB%8B%88%EC%A7%80%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "publishedAt": "2026-06-15T14:00:00+09:00",
+    "homeGoals": [
+      {
+        "scorer": "야신 아야리",
+        "assist": "알렉산데르 이사크"
+      },
+      {
+        "scorer": "알렉산데르 이사크",
+        "assist": "빅토르 요케레스"
+      },
+      {
+        "scorer": "빅토르 요케레스",
+        "assist": "알렉산데르 이사크"
+      },
+      {
+        "scorer": "마티아스 스반베리",
+        "assist": null
+      },
+      {
+        "scorer": "야신 아야리",
+        "assist": null
+      }
+    ],
+    "awayGoals": [
+      {
+        "scorer": "라니 케디라",
+        "assist": null
+      }
+    ]
   }
 ]

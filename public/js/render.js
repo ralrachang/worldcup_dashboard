@@ -6,6 +6,7 @@ function esc(s) {
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
+// 국기 헬퍼(flagImg/flagISO/flagFallback)는 js/flags.js 에서 전역 제공.
 
 function fmtKickoff(iso, timeTBD) {
   const d = new Date(iso);
@@ -49,19 +50,19 @@ function renderResults(list) {
         <span class="match-card__status">${esc(m.stage || 'FT')}</span>
       </div>
       <div class="score-row">
-        <div class="team team--home">
-          <span class="team__flag">${esc(m.home.flag)}</span>
+        <a class="team team--home" href="team.html?code=${esc(m.home.code)}">
+          ${flagImg(m.home.flag)}
           <span class="team__code">${esc(m.home.code)}</span>
-        </div>
+        </a>
         <div class="score">
           <span class="score__n ${hWin ? 'score__n--win' : aWin ? 'score__n--lose' : ''}">${esc(m.homeScore)}</span>
           <span class="score__sep">:</span>
           <span class="score__n ${aWin ? 'score__n--win' : hWin ? 'score__n--lose' : ''}">${esc(m.awayScore)}</span>
         </div>
-        <div class="team team--away">
-          <span class="team__flag">${esc(m.away.flag)}</span>
+        <a class="team team--away" href="team.html?code=${esc(m.away.code)}">
+          ${flagImg(m.away.flag)}
           <span class="team__code">${esc(m.away.code)}</span>
-        </div>
+        </a>
       </div>
       <div class="match-card__foot">
         <span class="match-card__src">${esc(m.source || '')}</span>
@@ -116,9 +117,9 @@ function renderFixtures(list) {
     <div class="fixture">
       <div class="fixture__time">${esc(time)}<small>${esc(f.timeTBD ? '시간미정' : 'KST')}</small></div>
       <div class="fixture__match">
-        <span class="fixture__team">${esc(f.home.flag)} ${esc(f.home.name)}</span>
+        <a class="fixture__team" href="team.html?code=${esc(f.home.code)}">${flagImg(f.home.flag, 'fixture__flag')} ${esc(f.home.name)}</a>
         <span class="fixture__vs">vs</span>
-        <span class="fixture__team">${esc(f.away.flag)} ${esc(f.away.name)}</span>
+        <a class="fixture__team" href="team.html?code=${esc(f.away.code)}">${flagImg(f.away.flag, 'fixture__flag')} ${esc(f.away.name)}</a>
       </div>
       <div>${tags}</div>
     </div>`;
@@ -144,8 +145,10 @@ function renderStandingsGroup(rows) {
       <td class="col-team">
         <span class="st-team">
           <span class="st-team__rank">${i + 1}</span>
-          <span class="team__flag">${esc(t.flag)}</span>
-          <span class="st-team__name">${esc(t.name)}</span>
+          <a class="st-team__link" href="team.html?code=${esc(t.code)}">
+            ${flagImg(t.flag)}
+            <span class="st-team__name">${esc(t.name)}</span>
+          </a>
         </span>
       </td>
       <td>${esc(t.played)}</td>

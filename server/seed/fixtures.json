@@ -34,25 +34,6 @@
     },
     "kickoff": "2026-06-17T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-uru-ksa",
-    "group": "C",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "URU",
-      "name": "우루과이",
-      "flag": "🇺🇾"
-    },
-    "away": {
-      "code": "KSA",
-      "name": "사우디아라비아",
-      "flag": "🇸🇦"
-    },
-    "kickoff": "2026-06-17T23:00:00+09:00",
-    "timeTBD": false,
     "venue": "BMO 필드 (토론토, 캐나다)",
     "broadcast": "tvN"
   },
@@ -72,26 +53,7 @@
     },
     "kickoff": "2026-06-18T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-swe-tun",
-    "group": "F",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "SWE",
-      "name": "스웨덴",
-      "flag": "🇸🇪"
-    },
-    "away": {
-      "code": "TUN",
-      "name": "튀니지",
-      "flag": "🇹🇳"
-    },
-    "kickoff": "2026-06-18T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "venue": "AT&T 스타디움 (댈러스)",
     "broadcast": "tvN"
   },
   {
@@ -110,8 +72,8 @@
     },
     "kickoff": "2026-06-19T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "KBS"
+    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-nga-pan",
@@ -129,8 +91,8 @@
     },
     "kickoff": "2026-06-19T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "SBS"
+    "venue": "NRG 스타디움 (휴스턴)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-uzb-crc",
@@ -148,8 +110,8 @@
     },
     "kickoff": "2026-06-19T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "MBC"
+    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-bra-aus",
@@ -167,8 +129,8 @@
     },
     "kickoff": "2026-06-19T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "tvN"
+    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-arg-nor",
@@ -186,8 +148,8 @@
     },
     "kickoff": "2026-06-19T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "KBS"
+    "venue": "BMO 필드 (토론토, 캐나다)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-esp-cmr",
@@ -205,8 +167,8 @@
     },
     "kickoff": "2026-06-19T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "SBS"
+    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-cro-nzl",
@@ -224,8 +186,8 @@
     },
     "kickoff": "2026-06-20T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "쿠팡플레이"
+    "venue": "NRG 스타디움 (휴스턴)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-pol-egy",
@@ -243,8 +205,8 @@
     },
     "kickoff": "2026-06-20T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "tvN"
+    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-aut-alg",
@@ -262,8 +224,8 @@
     },
     "kickoff": "2026-06-20T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "KBS"
+    "venue": "NRG 스타디움 (휴스턴)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-bel-ita",
@@ -281,8 +243,8 @@
     },
     "kickoff": "2026-06-20T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "MBC"
+    "venue": "BMO 필드 (토론토, 캐나다)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-col-mar",
@@ -300,8 +262,8 @@
     },
     "kickoff": "2026-06-20T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "쿠팡플레이"
+    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-can-sen",
@@ -319,8 +281,8 @@
     },
     "kickoff": "2026-06-20T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "tvN"
+    "venue": "BMO 필드 (토론토, 캐나다)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-rsa-cze",
@@ -376,8 +338,8 @@
     },
     "kickoff": "2026-06-21T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "MBC"
+    "venue": "레비스 스타디움 (샌프란시스코)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-kor-mex",
@@ -433,8 +395,8 @@
     },
     "kickoff": "2026-06-21T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "SBS"
+    "venue": "NRG 스타디움 (휴스턴)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-jor-par",
@@ -452,8 +414,8 @@
     },
     "kickoff": "2026-06-22T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "MBC"
+    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-ecu-cuw",
@@ -471,8 +433,8 @@
     },
     "kickoff": "2026-06-22T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "SBS"
+    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-tun-jpn",
@@ -490,8 +452,8 @@
     },
     "kickoff": "2026-06-22T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "SBS"
+    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-usa-fra",
@@ -509,8 +471,8 @@
     },
     "kickoff": "2026-06-22T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "SBS"
+    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-ger-civ",
@@ -528,8 +490,8 @@
     },
     "kickoff": "2026-06-22T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "KBS"
+    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-ned-swe",
@@ -547,8 +509,8 @@
     },
     "kickoff": "2026-06-22T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "KBS"
+    "venue": "레비스 스타디움 (샌프란시스코)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-jam-aus",
@@ -566,8 +528,8 @@
     },
     "kickoff": "2026-06-23T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "MBC"
+    "venue": "에스타디오 아스테카 (멕시코시티)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-pan-nor",
@@ -585,8 +547,8 @@
     },
     "kickoff": "2026-06-23T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "쿠팡플레이"
+    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-crc-cmr",
@@ -604,8 +566,8 @@
     },
     "kickoff": "2026-06-23T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "tvN"
+    "venue": "에스타디오 아스테카 (멕시코시티)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-bra-sco",
@@ -623,8 +585,8 @@
     },
     "kickoff": "2026-06-23T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "SBS"
+    "venue": "링컨 파이낸셜 필드 (필라델피아)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-arg-nga",
@@ -642,8 +604,8 @@
     },
     "kickoff": "2026-06-23T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "MBC"
+    "venue": "레비스 스타디움 (샌프란시스코)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-esp-uzb",
@@ -661,8 +623,8 @@
     },
     "kickoff": "2026-06-23T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "쿠팡플레이"
+    "venue": "링컨 파이낸셜 필드 (필라델피아)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-nzl-ita",
@@ -680,8 +642,8 @@
     },
     "kickoff": "2026-06-24T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "KBS"
+    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-egy-mar",
@@ -699,8 +661,8 @@
     },
     "kickoff": "2026-06-24T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "SBS"
+    "venue": "에스타디오 아스테카 (멕시코시티)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-alg-sen",
@@ -718,8 +680,8 @@
     },
     "kickoff": "2026-06-24T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "MBC"
+    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-bel-cro",
@@ -737,8 +699,8 @@
     },
     "kickoff": "2026-06-24T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "tvN"
+    "venue": "레비스 스타디움 (샌프란시스코)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-col-pol",
@@ -756,8 +718,8 @@
     },
     "kickoff": "2026-06-24T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "KBS"
+    "venue": "링컨 파이낸셜 필드 (필라델피아)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-can-aut",
@@ -775,8 +737,8 @@
     },
     "kickoff": "2026-06-24T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "SBS"
+    "venue": "레비스 스타디움 (샌프란시스코)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-cze-mex",
@@ -832,8 +794,8 @@
     },
     "kickoff": "2026-06-25T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "tvN"
+    "venue": "SoFi 스타디움 (로스앤젤레스)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-kor-rsa",
@@ -889,8 +851,8 @@
     },
     "kickoff": "2026-06-25T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "쿠팡플레이"
+    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-par-fra",
@@ -908,8 +870,8 @@
     },
     "kickoff": "2026-06-26T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "tvN"
+    "venue": "에스타디오 아스테카 (멕시코시티)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-cuw-civ",
@@ -927,8 +889,8 @@
     },
     "kickoff": "2026-06-26T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "쿠팡플레이"
+    "venue": "NRG 스타디움 (휴스턴)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-jpn-swe",
@@ -946,8 +908,8 @@
     },
     "kickoff": "2026-06-26T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "쿠팡플레이"
+    "venue": "AT&T 스타디움 (댈러스)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-usa-jor",
@@ -965,8 +927,8 @@
     },
     "kickoff": "2026-06-26T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "쿠팡플레이"
+    "venue": "링컨 파이낸셜 필드 (필라델피아)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-ger-ecu",
@@ -984,8 +946,8 @@
     },
     "kickoff": "2026-06-26T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "MBC"
+    "venue": "BMO 필드 (토론토, 캐나다)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-ned-tun",
@@ -1003,8 +965,8 @@
     },
     "kickoff": "2026-06-26T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "MBC"
+    "venue": "SoFi 스타디움 (로스앤젤레스)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-aus-sco",
@@ -1022,8 +984,8 @@
     },
     "kickoff": "2026-06-27T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "tvN"
+    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-nor-nga",
@@ -1041,8 +1003,8 @@
     },
     "kickoff": "2026-06-27T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "KBS"
+    "venue": "AT&T 스타디움 (댈러스)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-cmr-uzb",
@@ -1060,8 +1022,8 @@
     },
     "kickoff": "2026-06-27T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "SBS"
+    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-bra-jam",
@@ -1079,8 +1041,8 @@
     },
     "kickoff": "2026-06-27T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "쿠팡플레이"
+    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-arg-pan",
@@ -1098,8 +1060,8 @@
     },
     "kickoff": "2026-06-27T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "tvN"
+    "venue": "SoFi 스타디움 (로스앤젤레스)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-esp-crc",
@@ -1117,8 +1079,8 @@
     },
     "kickoff": "2026-06-27T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "KBS"
+    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
+    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-ita-cro",
@@ -1136,8 +1098,8 @@
     },
     "kickoff": "2026-06-28T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "MBC"
+    "venue": "AT&T 스타디움 (댈러스)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-mar-pol",
@@ -1155,8 +1117,8 @@
     },
     "kickoff": "2026-06-28T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "쿠팡플레이"
+    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
+    "broadcast": "SBS"
   },
   {
     "id": "fx-sen-aut",
@@ -1174,8 +1136,8 @@
     },
     "kickoff": "2026-06-28T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "tvN"
+    "venue": "AT&T 스타디움 (댈러스)",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-bel-nzl",
@@ -1193,8 +1155,8 @@
     },
     "kickoff": "2026-06-28T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "SBS"
+    "venue": "SoFi 스타디움 (로스앤젤레스)",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-col-egy",
@@ -1212,8 +1174,8 @@
     },
     "kickoff": "2026-06-28T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "MBC"
+    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
+    "broadcast": "KBS"
   },
   {
     "id": "fx-can-alg",
@@ -1231,7 +1193,7 @@
     },
     "kickoff": "2026-06-28T23:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "쿠팡플레이"
+    "venue": "SoFi 스타디움 (로스앤젤레스)",
+    "broadcast": "SBS"
   }
 ]

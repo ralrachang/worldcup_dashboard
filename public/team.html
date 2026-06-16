@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SQUAD · WORLD CUP 2026</title>
+  <meta name="description" content="2026 북중미 월드컵 국가별 선수단 · 기록 (FM2026 스타일)" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23101826'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%2325d0e6'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/team.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar__brand">
+      <a class="topbar__back" href="./index.html" aria-label="대시보드로">←</a>
+      <div class="topbar__titles">
+        <h1 class="topbar__title">SQUAD <span>2026</span></h1>
+        <p class="topbar__sub">북중미 · NATIONAL TEAM</p>
+      </div>
+    </div>
+    <div class="topbar__meta">
+      <a class="btn-refresh" href="./index.html">⌂ 대시보드</a>
+    </div>
+  </header>
+
+  <main class="team-page">
+    <section id="teamHero" class="team-hero" aria-live="polite">
+      <div class="team-hero__skel skeleton"></div>
+    </section>
+
+    <section class="panel squad-panel">
+      <div class="panel__head">
+        <h2 class="panel__title">선수단 <span class="panel__title-en">SQUAD &amp; STATS</span></h2>
+        <span id="squadNote" class="panel__count"></span>
+      </div>
+      <div id="squad" class="squad-wrap" aria-live="polite">
+        <div class="empty">불러오는 중…</div>
+      </div>
+    </section>
+
+    <p class="team-foot">
+      기록은 치른 경기 결과에서 산출한 <b>가상 시뮬레이션</b> 수치입니다 · 명단(이름·나이·소속팀)은 베스트에포트 큐레이션
+    </p>
+  </main>
+
+  <script src="./js/flags.js"></script>
+  <script src="./js/team.js"></script>
+</body>
+</html>

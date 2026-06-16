@@ -30,7 +30,7 @@ const PLAYED = [
 
   { home: 'KOR', away: 'CZE', hs: 2, as: 1, stage: '조별리그 1차전',
     headline: '한국, 체코 꺾고 2-1 역전승…16년 만의 월드컵 첫 경기 승리',
-    hlTitle: '이강인·손흥민 폭발…한국 2-1 체코 역전승 주요 장면',
+    hlTitle: '황인범·오현규 역전골…한국 2-1 체코 짜릿한 역전승 주요 장면',
     source: '네이버스포츠', link: 'https://m.sports.naver.com/worldcup2026/article/425/0000194557',
     publishedAt: '2026-06-12T13:00:00+09:00',
     thumbnail: 'https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5356%2F2026%2F06%2F10%2F0000797362_002_20260610000010512.jpg' },
@@ -68,7 +68,43 @@ const PLAYED = [
     source: 'STN스포츠', link: 'https://m.sports.naver.com/worldcup2026/article/450/0000151921',
     publishedAt: '2026-06-13T17:21:00+09:00',
     thumbnail: 'https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fimg1.daumcdn.net%2Fthumb%2FR1280x0.fpng%2F%3Ffname%3Dhttp%3A%2F%2Ft1.kakaocdn.net%2Fbrunch%2Fservice%2Fuser%2FhU86%2Fimage%2F2DyNFMssmNNC6jvrzyyF3R2HdVQ.png' },
+
+  { home: 'URU', away: 'KSA', hs: 1, as: 1, stage: '조별리그 1차전',
+    headline: '우루과이, 사우디와 1-1 무승부…후반 아라우호 동점골',
+    hlTitle: '우루과이 1-1 사우디아라비아 하이라이트…후반 아라우호 동점골',
+    source: '스포티비뉴스', link: 'https://m.sports.naver.com/worldcup2026/article/477/0000613636',
+    publishedAt: '2026-06-16T05:30:00+09:00', thumbnail: '' },
+
+  { home: 'SWE', away: 'TUN', hs: 5, as: 1, stage: '조별리그 1차전',
+    headline: '스웨덴, 튀니지 5-1 완파…아야리 멀티골로 F조 선두',
+    hlTitle: '스웨덴 5-1 튀니지 하이라이트…아야리 멀티골·이사크·요케레스 활약',
+    source: '한국일보', link: 'https://www.hankooki.com/news/articleView.html?idxno=335786',
+    publishedAt: '2026-06-15T14:00:00+09:00', thumbnail: '' },
 ];
+
+// ── 실제 득점자/도움 (네이버 뉴스 기반, 이 시뮬 세계관의 1차전 기록) ──────
+// key: `${home}-${away}`. s=득점자, a=도움(선택). 명단(players.json) 이름과 정확히 일치해야 함.
+// 배열 길이가 스코어보다 적으면(자책골/미확인 골) 나머지는 선수에게 귀속 안 됨 — 의도된 동작.
+const GOALS = {
+  'GER-CUW': { home: [{ s: '펠릭스 은메차', a: '플로리안 비르츠' }, { s: '니코 슐로터벡', a: '나타니엘 브라운' }, { s: '카이 하베르츠' }, { s: '자말 무시알라', a: '요주아 키미히' }, { s: '나타니엘 브라운', a: '데니즈 운디아우' }, { s: '데니즈 운디아우', a: '요주아 키미히' }, { s: '카이 하베르츠', a: '데니즈 운디아우' }], away: [{ s: '리바노 코메넨시아' }] },
+  'KOR-CZE': { home: [{ s: '황인범' }, { s: '오현규' }], away: [{ s: '라디슬라프 크레이치' }] },
+  'MEX-RSA': { home: [{ s: '훌리안 퀴노네스' }, { s: '라울 히메네스' }], away: [] },
+  'CIV-ECU': { home: [{ s: '아마드 디알로' }], away: [] },
+  'NED-JPN': { home: [{ s: '버질 반 다이크' }], away: [{ s: '나카무라 게이토' }, { s: '가마다 다이치' }] },
+  'QAT-SUI': { home: [{ s: '부알렘 쿠키', a: '호맘 아흐메드' }], away: [{ s: '브릴 엠볼로' }] },
+  'USA-PAR': { home: [{ s: '폴린하 발로건', a: '크리스천 풀리식' }, { s: '폴린하 발로건' }, { s: '지오바니 레이나' }], away: [{ s: '마우리시우' }] },
+  'URU-KSA': { home: [{ s: '막시밀리아노 아라우호' }], away: [{ s: '압둘라예 알 암리' }] },
+  'SWE-TUN': { home: [{ s: '야신 아야리', a: '알렉산데르 이사크' }, { s: '알렉산데르 이사크', a: '빅토르 요케레스' }, { s: '빅토르 요케레스', a: '알렉산데르 이사크' }, { s: '마티아스 스반베리' }, { s: '야신 아야리' }], away: [{ s: '라니 케디라' }] },
+};
+const goalsFor = (home, away) => GOALS[`${home}-${away}`] || { home: [], away: [] };
+
+// ── 실제 선발/교체 (네이버 기반). 데이터 있는 팀만 명시 — 없으면 엔진이 시뮬. ──
+// 선발 라인업은 players.json 의 "앞 11명"으로 표현(작성 순서 = 선발). 여기선 교체만 기록.
+// off=빠진 선수, on=투입 선수, min=교체된 분. home/away 중 데이터 있는 쪽만 키 작성.
+const SUBS = {
+  // 한국 3-4-3: 손흥민(원톱) → 후반 24분(69') 오현규 교체 IN, 오현규 역전골.
+  'KOR-CZE': { home: [{ off: '손흥민', on: '오현규', min: 69 }] },
+};
 
 // 코드 → 소속 조
 const GROUP_OF = {};
@@ -106,7 +142,10 @@ const playedKeys = new Set(PLAYED.map((m) => pairKey(m.home, m.away)));
 
 const results = PLAYED.map((m) => {
   const home = T(m.home), away = T(m.away);
-  return {
+  const g = goalsFor(m.home, m.away);
+  const mapG = (arr) => arr.map((x) => ({ scorer: x.s, assist: x.a || null }));
+  const subs = SUBS[`${m.home}-${m.away}`] || {};
+  const row = {
     id: `${m.home}-${m.away}`.toLowerCase(),
     group: GROUP_OF[m.home] || '',
     stage: m.stage,
@@ -118,7 +157,12 @@ const results = PLAYED.map((m) => {
     link: m.link,
     highlightLink: parser.highlightUrl(home.name, away.name),
     publishedAt: m.publishedAt,
+    homeGoals: mapG(g.home),
+    awayGoals: mapG(g.away),
   };
+  if (subs.home) row.homeSubs = subs.home;
+  if (subs.away) row.awaySubs = subs.away;
+  return row;
 });
 
 const highlights = PLAYED.map((m) => {

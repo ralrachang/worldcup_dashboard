@@ -1,0 +1,138 @@
+/* ============================================================
+   팀 상세(선수단) 페이지 — FM2026 스쿼드 뷰
+   tokens.css + styles.css(토픽바/패널/뱃지) 위에 얹는다.
+   ============================================================ */
+
+/* 상단바 뒤로가기 */
+.topbar__back {
+  display: grid; place-items: center;
+  width: 40px; height: 40px; border-radius: var(--r-md);
+  background: var(--elev); border: 1px solid var(--line);
+  color: var(--cyan-bright); font-size: 20px; font-weight: 800;
+  transition: .15s;
+}
+.topbar__back:hover { border-color: var(--cyan); box-shadow: var(--glow-cyan); }
+
+.team-page {
+  max-width: 1180px; margin: 0 auto;
+  padding: clamp(16px, 3vw, 28px) clamp(16px, 4vw, 40px) 48px;
+  display: flex; flex-direction: column; gap: var(--gap);
+}
+
+/* ── 팀 헤더(히어로) ─────────────────────────────────────── */
+.team-hero {
+  display: flex; align-items: center; gap: 22px;
+  padding: 22px clamp(16px, 3vw, 28px);
+  background:
+    radial-gradient(600px 240px at 12% -40%, #1a3a4a55, transparent 70%),
+    linear-gradient(180deg, var(--panel), var(--panel-2));
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+}
+.team-hero__skel { width: 100%; height: 78px; }
+.team-hero__crest { flex-shrink: 0; line-height: 0; }
+img.team-hero__flag {
+  width: 84px; height: 56px; object-fit: cover;
+  border-radius: var(--r-sm); box-shadow: 0 0 0 1px #ffffff22, 0 8px 22px -10px #000c;
+}
+.team-hero__flag { font-size: 56px; line-height: 1; }  /* 이모지 폴백 */
+.team-hero__main { min-width: 0; }
+.team-hero__row1 { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.team-hero__name {
+  font-family: var(--font-head); margin: 0;
+  font-size: clamp(24px, 3.6vw, 36px); font-weight: 800; letter-spacing: .02em;
+}
+.team-hero__group {
+  font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+  color: var(--cyan); border: 1px solid #25d0e644; border-radius: 999px;
+  padding: 3px 10px; letter-spacing: .08em;
+}
+.team-hero__code {
+  font-family: var(--font-mono); font-size: 12px; color: var(--text-mute);
+  letter-spacing: .12em;
+}
+.team-hero__row2 {
+  margin-top: 8px; font-size: 13px; color: var(--text-dim);
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.team-hero__row2 b { color: var(--text); font-weight: 700; }
+.team-hero__rec { color: var(--text); font-weight: 600; }
+.team-hero__sep { color: var(--text-mute); }
+.team-hero__pending { color: var(--gold); font-family: var(--font-mono); font-size: 12px; }
+
+/* ── 스쿼드 테이블 ───────────────────────────────────────── */
+.squad-panel { background: linear-gradient(180deg, var(--panel), var(--panel-2)); }
+.squad-wrap { padding: 4px 6px 8px; overflow-x: auto; }
+.squad-table {
+  width: 100%; border-collapse: collapse;
+  font-variant-numeric: tabular-nums; min-width: 680px;
+}
+.squad-table thead th {
+  position: sticky; top: 0;
+  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+  letter-spacing: .08em; color: var(--text-mute); text-transform: uppercase;
+  padding: 10px 8px; text-align: center;
+  background: var(--panel-2); border-bottom: 1px solid var(--line);
+}
+.squad-table th.c-name, .squad-table th.c-club { text-align: left; }
+
+.squad-table td { padding: 8px; border-bottom: 1px solid var(--line-soft); font-size: 13px; }
+.squad-row:hover td { background: #0e1a2a99; }
+.squad-row--bench td { opacity: .62; }
+
+.c-pos { width: 50px; text-align: center; }
+.c-name { font-weight: 700; color: var(--text); white-space: nowrap; }
+.c-age { width: 46px; text-align: center; color: var(--text-dim); }
+.c-club { color: var(--text-dim); white-space: nowrap; }
+.c-num { width: 48px; text-align: center; color: var(--text-dim); font-family: var(--font-mono); }
+.c-min { color: var(--text-mute); font-size: 12px; }
+.c-g { color: var(--text); font-weight: 600; }
+.c-a { color: var(--text); font-weight: 600; }
+.c-rating { width: 64px; text-align: center; }
+
+/* 라인 구분 소제목 행 */
+.squad-sub td {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .14em;
+  color: var(--cyan); text-transform: uppercase;
+  padding: 12px 8px 5px; border-bottom: 1px solid var(--line);
+  background: #0c1622;
+}
+.squad-sub span { color: var(--text-mute); }
+
+/* 포지션 칩 (라인별 색) */
+.pos-pill {
+  display: inline-block; min-width: 34px;
+  font-family: var(--font-mono); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .04em; padding: 2px 6px; border-radius: var(--r-sm);
+  border: 1px solid transparent;
+}
+.pos-GK { color: var(--amber); border-color: #f4c15244; background: #f4c15214; }
+.pos-DF { color: var(--cyan); border-color: #25d0e644; background: #25d0e614; }
+.pos-MF { color: var(--green); border-color: #38d39f44; background: #38d39f14; }
+.pos-FW { color: var(--red); border-color: #f0697a44; background: #f0697a14; }
+
+/* 평점 색상 등급 */
+.rating {
+  display: inline-block; min-width: 40px;
+  font-family: var(--font-mono); font-weight: 700; font-size: 13px;
+  padding: 3px 7px; border-radius: var(--r-sm); color: var(--text-mute);
+}
+.rating.r-hot  { color: #062a1f; background: var(--green); }
+.rating.r-good { color: var(--cyan-bright); background: #25d0e618; border: 1px solid #25d0e640; }
+.rating.r-ok   { color: var(--text); background: #ffffff0c; }
+.rating.r-low  { color: var(--red); background: #f0697a12; }
+
+.team-foot {
+  text-align: center; color: var(--text-mute);
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .02em; margin: 4px 0 0;
+}
+.team-foot b { color: var(--text-dim); }
+
+/* 스크롤바 */
+.squad-wrap::-webkit-scrollbar { height: 8px; }
+.squad-wrap::-webkit-scrollbar-thumb { background: var(--line); border-radius: 8px; }
+
+@media (max-width: 620px) {
+  .team-hero { gap: 14px; }
+  img.team-hero__flag { width: 62px; height: 42px; }
+}
