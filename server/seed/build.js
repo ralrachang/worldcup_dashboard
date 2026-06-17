@@ -118,7 +118,30 @@ const VENUES = [
   'BMO 필드 (토론토, 캐나다)', 'NRG 스타디움 (휴스턴)', '레비스 스타디움 (샌프란시스코)',
 ];
 const BROADCASTS = ['KBS', 'SBS', 'MBC', '쿠팡플레이', 'tvN'];
-const VENUE_OVERRIDE = { 'KOR-MEX': '에스타디오 과달라하라 (멕시코)' };
+
+// ── 실제 일정 오버라이드 ─────────────────────────────────────────────────
+// 가상 조편성 중 A·E·F 3개 조는 실제 2026 월드컵 조와 정확히 일치한다(양 1차전이
+// 실제 대진과 매핑됨). 따라서 이 세 조의 잔여 경기는 실제 일정으로 교정한다.
+// 네이버 뉴스/웹 실측(2026-06-17 KST). key=`${home}-${away}`(RR 생성 순서와 동일).
+// kickoff/venue 만 덮어쓰고, broadcast 미지정 시 아래 합성 규칙(KOR=KBS 등) 유지.
+// (참고: 2026 월드컵 한국 중계권은 JTBC 독점 — 표시 중계사는 데모용 합성값.)
+const FX_OVERRIDE = {
+  // A조 (= 실제 A조: KOR·CZE·MEX·RSA)
+  'KOR-MEX': { kickoff: '2026-06-19T10:00:00+09:00', venue: '에스타디오 과달라하라 (사포판, 멕시코)' },
+  'RSA-CZE': { kickoff: '2026-06-19T01:00:00+09:00', venue: '메르세데스-벤츠 스타디움 (애틀랜타)' },
+  'KOR-RSA': { kickoff: '2026-06-25T10:00:00+09:00', venue: '에스타디오 BBVA (몬테레이, 멕시코)' },
+  'CZE-MEX': { kickoff: '2026-06-25T10:00:00+09:00', venue: '에스타디오 아스테카 (멕시코시티)' },
+  // E조 (= 실제 E조: GER·CUW·CIV·ECU)
+  'GER-CIV': { kickoff: '2026-06-21T05:00:00+09:00', venue: 'BMO 필드 (토론토, 캐나다)' },
+  'ECU-CUW': { kickoff: '2026-06-21T09:00:00+09:00', venue: '애로헤드 스타디움 (캔자스시티)' },
+  'GER-ECU': { kickoff: '2026-06-26T05:00:00+09:00', venue: 'MetLife 스타디움 (뉴욕/뉴저지)' },
+  'CUW-CIV': { kickoff: '2026-06-26T05:00:00+09:00', venue: '링컨 파이낸셜 필드 (필라델피아)' },
+  // F조 (= 실제 F조: NED·JPN·SWE·TUN)
+  'NED-SWE': { kickoff: '2026-06-21T02:00:00+09:00', venue: 'NRG 스타디움 (휴스턴)' },
+  'TUN-JPN': { kickoff: '2026-06-21T13:00:00+09:00', venue: '에스타디오 BBVA (몬테레이, 멕시코)' },
+  'NED-TUN': { kickoff: '2026-06-26T08:00:00+09:00', venue: '애로헤드 스타디움 (캔자스시티)' },
+  'JPN-SWE': { kickoff: '2026-06-26T08:00:00+09:00', venue: 'AT&T 스타디움 (댈러스)' },
+};
 
 // 4팀 라운드로빈: MD1 (0,1)(2,3) · MD2 (0,2)(3,1) · MD3 (0,3)(1,2)
 const RR = [
@@ -126,8 +149,9 @@ const RR = [
   [[0, 2], [3, 1]],
   [[0, 3], [1, 2]],
 ];
-// 치르지 않은 경기 날짜(전부 오늘 2026-06-16 이후). [md] -> 시작일
-const FX_BASE = { 1: '2026-06-17', 2: '2026-06-21', 3: '2026-06-25' };
+// 합성 일정 기준일(오버라이드 없는 가상 대진용). 실제 대회 달력에 맞춰 전진:
+// MD1 잔여=6/18~, MD2=6/19~(실제 6/19~22), MD3=6/24~(실제 6/23~27). 과거 날짜 방지.
+const FX_BASE = { 1: '2026-06-18', 2: '2026-06-19', 3: '2026-06-24' };
 function fxDate(md, groupIndex, slot) {
   // 정오 UTC + UTC 날짜연산으로 타임존 롤오버 방지 (Y-M-D 만 사용)
   const d = new Date(`${FX_BASE[md]}T12:00:00Z`);
@@ -189,16 +213,17 @@ Object.keys(groups).forEach((g, gi) => {
       if (playedKeys.has(pairKey(hc, ac))) return; // 이미 치른 경기는 제외
       const home = T(hc), away = T(ac);
       const key = `${hc}-${ac}`;
-      const venue = VENUE_OVERRIDE[key] || VENUES[metaIdx % VENUES.length];
-      let broadcast = BROADCASTS[metaIdx % BROADCASTS.length];
-      if (hc === 'KOR' || ac === 'KOR') broadcast = 'KBS';
+      const ov = FX_OVERRIDE[key] || {};
+      const venue = ov.venue || VENUES[metaIdx % VENUES.length];
+      let broadcast = ov.broadcast || BROADCASTS[metaIdx % BROADCASTS.length];
+      if (!ov.broadcast && (hc === 'KOR' || ac === 'KOR')) broadcast = 'KBS';
       metaIdx += 1;
       fixtures.push({
         id: `fx-${key}`.toLowerCase(),
         group: g,
         stage: `조별리그 ${md0 + 1}차전`,
         home, away,
-        kickoff: fxDate(md0 + 1, gi, slot),
+        kickoff: ov.kickoff || fxDate(md0 + 1, gi, slot),
         timeTBD: false,
         venue,
         broadcast,
