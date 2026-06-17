@@ -1,5 +1,31 @@
 [
   {
+    "id": "aut-jor",
+    "group": "J",
+    "stage": "조별리그 1차전",
+    "home": {
+      "code": "AUT",
+      "name": "오스트리아",
+      "flag": "🇦🇹"
+    },
+    "away": {
+      "code": "JOR",
+      "name": "요르단",
+      "flag": "🇯🇴"
+    },
+    "homeScore": 3,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "오스트리아, 요르단 꺾고 3-1 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84%20%EC%9A%94%EB%A5%B4%EB%8B%A8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84%20%EC%9A%94%EB%A5%B4%EB%8B%A8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
+    "publishedAt": "2026-06-17T13:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
     "id": "arg-alg",
     "group": "J",
     "stage": "조별리그 1차전",

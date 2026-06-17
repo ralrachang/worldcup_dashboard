@@ -232,12 +232,12 @@
     "venue": "샌프란시스코 베이 에어리어 스타디움",
     "group": "J",
     "round": "1",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "AUT",
     "away": "JOR",
-    "hs": 0,
-    "as": 0,
-    "winner": "DRAW"
+    "hs": 3,
+    "as": 1,
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-18T02:00:00",
