@@ -1,26 +1,26 @@
 [
   {
-    "id": "fx-eng-irn",
-    "group": "B",
+    "id": "fx-aut-jor",
+    "group": "J",
     "stage": "조별리그 1차전",
     "home": {
-      "code": "ENG",
-      "name": "잉글랜드",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      "code": "AUT",
+      "name": "오스트리아",
+      "flag": "🇦🇹"
     },
     "away": {
-      "code": "IRN",
-      "name": "이란",
-      "flag": "🇮🇷"
+      "code": "JOR",
+      "name": "요르단",
+      "flag": "🇯🇴"
     },
-    "kickoff": "2026-06-18T08:00:00+09:00",
+    "kickoff": "2026-06-17T13:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "tvN"
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
+    "broadcast": "KBS"
   },
   {
-    "id": "fx-por-gha",
-    "group": "C",
+    "id": "fx-por-cod",
+    "group": "K",
     "stage": "조별리그 1차전",
     "home": {
       "code": "POR",
@@ -28,208 +28,56 @@
       "flag": "🇵🇹"
     },
     "away": {
-      "code": "GHA",
-      "name": "가나",
-      "flag": "🇬🇭"
+      "code": "COD",
+      "name": "콩고민주공화국",
+      "flag": "🇨🇩"
     },
-    "kickoff": "2026-06-18T08:00:00+09:00",
+    "kickoff": "2026-06-18T02:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "tvN"
-  },
-  {
-    "id": "fx-rsa-cze",
-    "group": "A",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "RSA",
-      "name": "남아프리카공화국",
-      "flag": "🇿🇦"
-    },
-    "away": {
-      "code": "CZE",
-      "name": "체코",
-      "flag": "🇨🇿"
-    },
-    "kickoff": "2026-06-19T01:00:00+09:00",
-    "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "venue": "휴스턴 스타디움",
     "broadcast": "SBS"
   },
   {
-    "id": "fx-irn-sui",
-    "group": "B",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "IRN",
-      "name": "이란",
-      "flag": "🇮🇷"
-    },
-    "away": {
-      "code": "SUI",
-      "name": "스위스",
-      "flag": "🇨🇭"
-    },
-    "kickoff": "2026-06-19T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-gha-ksa",
-    "group": "C",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "GHA",
-      "name": "가나",
-      "flag": "🇬🇭"
-    },
-    "away": {
-      "code": "KSA",
-      "name": "사우디아라비아",
-      "flag": "🇸🇦"
-    },
-    "kickoff": "2026-06-19T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-fra-jor",
-    "group": "D",
+    "id": "fx-eng-cro",
+    "group": "L",
     "stage": "조별리그 1차전",
     "home": {
-      "code": "FRA",
-      "name": "프랑스",
-      "flag": "🇫🇷"
-    },
-    "away": {
-      "code": "JOR",
-      "name": "요르단",
-      "flag": "🇯🇴"
-    },
-    "kickoff": "2026-06-19T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "tvN"
-  },
-  {
-    "id": "fx-kor-mex",
-    "group": "A",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "KOR",
-      "name": "대한민국",
-      "flag": "🇰🇷"
-    },
-    "away": {
-      "code": "MEX",
-      "name": "멕시코",
-      "flag": "🇲🇽"
-    },
-    "kickoff": "2026-06-19T10:00:00+09:00",
-    "timeTBD": false,
-    "venue": "에스타디오 과달라하라 (사포판, 멕시코)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-qat-eng",
-    "group": "B",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "QAT",
-      "name": "카타르",
-      "flag": "🇶🇦"
-    },
-    "away": {
       "code": "ENG",
       "name": "잉글랜드",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
-    "kickoff": "2026-06-19T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-uru-por",
-    "group": "C",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "URU",
-      "name": "우루과이",
-      "flag": "🇺🇾"
-    },
     "away": {
-      "code": "POR",
-      "name": "포르투갈",
-      "flag": "🇵🇹"
+      "code": "CRO",
+      "name": "크로아티아",
+      "flag": "🇭🇷"
     },
-    "kickoff": "2026-06-19T23:00:00+09:00",
+    "kickoff": "2026-06-18T05:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "KBS"
+    "venue": "달라스 스타디움",
+    "broadcast": "MBC"
   },
   {
-    "id": "fx-jor-par",
-    "group": "D",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "JOR",
-      "name": "요르단",
-      "flag": "🇯🇴"
-    },
-    "away": {
-      "code": "PAR",
-      "name": "파라과이",
-      "flag": "🇵🇾"
-    },
-    "kickoff": "2026-06-20T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-sco-jam",
-    "group": "G",
+    "id": "fx-gha-pan",
+    "group": "L",
     "stage": "조별리그 1차전",
     "home": {
-      "code": "SCO",
-      "name": "스코틀랜드",
-      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-    },
-    "away": {
-      "code": "JAM",
-      "name": "자메이카",
-      "flag": "🇯🇲"
-    },
-    "kickoff": "2026-06-20T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-nga-pan",
-    "group": "H",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "NGA",
-      "name": "나이지리아",
-      "flag": "🇳🇬"
+      "code": "GHA",
+      "name": "가나",
+      "flag": "🇬🇭"
     },
     "away": {
       "code": "PAN",
       "name": "파나마",
       "flag": "🇵🇦"
     },
-    "kickoff": "2026-06-20T08:00:00+09:00",
+    "kickoff": "2026-06-18T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "tvN"
+    "venue": "토론토 스타디움",
+    "broadcast": "쿠팡플레이"
   },
   {
-    "id": "fx-uzb-crc",
-    "group": "I",
+    "id": "fx-uzb-col",
+    "group": "K",
     "stage": "조별리그 1차전",
     "home": {
       "code": "UZB",
@@ -237,17 +85,93 @@
       "flag": "🇺🇿"
     },
     "away": {
-      "code": "CRC",
-      "name": "코스타리카",
-      "flag": "🇨🇷"
+      "code": "COL",
+      "name": "콜롬비아",
+      "flag": "🇨🇴"
     },
-    "kickoff": "2026-06-20T08:00:00+09:00",
+    "kickoff": "2026-06-18T11:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "venue": "멕시코 시티 스타디움",
+    "broadcast": "tvN"
+  },
+  {
+    "id": "fx-cze-rsa",
+    "group": "A",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "CZE",
+      "name": "체코",
+      "flag": "🇨🇿"
+    },
+    "away": {
+      "code": "RSA",
+      "name": "남아프리카공화국",
+      "flag": "🇿🇦"
+    },
+    "kickoff": "2026-06-19T01:00:00+09:00",
+    "timeTBD": false,
+    "venue": "애틀랜타 스타디움",
     "broadcast": "KBS"
   },
   {
-    "id": "fx-usa-fra",
+    "id": "fx-sui-bih",
+    "group": "B",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "SUI",
+      "name": "스위스",
+      "flag": "🇨🇭"
+    },
+    "away": {
+      "code": "BIH",
+      "name": "보스니아헤르체고비나",
+      "flag": "🇧🇦"
+    },
+    "kickoff": "2026-06-19T04:00:00+09:00",
+    "timeTBD": false,
+    "venue": "로스앤젤레스 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-can-qat",
+    "group": "B",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "CAN",
+      "name": "캐나다",
+      "flag": "🇨🇦"
+    },
+    "away": {
+      "code": "QAT",
+      "name": "카타르",
+      "flag": "🇶🇦"
+    },
+    "kickoff": "2026-06-19T07:00:00+09:00",
+    "timeTBD": false,
+    "venue": "BC 플레이스 밴쿠버",
+    "broadcast": "MBC"
+  },
+  {
+    "id": "fx-mex-kor",
+    "group": "A",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "MEX",
+      "name": "멕시코",
+      "flag": "🇲🇽"
+    },
+    "away": {
+      "code": "KOR",
+      "name": "대한민국",
+      "flag": "🇰🇷"
+    },
+    "kickoff": "2026-06-19T10:00:00+09:00",
+    "timeTBD": false,
+    "venue": "에스타디오 과달라하라",
+    "broadcast": "KBS"
+  },
+  {
+    "id": "fx-usa-aus",
     "group": "D",
     "stage": "조별리그 2차전",
     "home": {
@@ -256,71 +180,71 @@
       "flag": "🇺🇸"
     },
     "away": {
-      "code": "FRA",
-      "name": "프랑스",
-      "flag": "🇫🇷"
+      "code": "AUS",
+      "name": "호주",
+      "flag": "🇦🇺"
     },
-    "kickoff": "2026-06-20T23:00:00+09:00",
+    "kickoff": "2026-06-20T04:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "venue": "시애틀 스타디움",
+    "broadcast": "tvN"
+  },
+  {
+    "id": "fx-sco-mar",
+    "group": "C",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "SCO",
+      "name": "스코틀랜드",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "away": {
+      "code": "MAR",
+      "name": "모로코",
+      "flag": "🇲🇦"
+    },
+    "kickoff": "2026-06-20T07:00:00+09:00",
+    "timeTBD": false,
+    "venue": "보스턴 스타디움",
     "broadcast": "KBS"
   },
   {
-    "id": "fx-bra-aus",
-    "group": "G",
-    "stage": "조별리그 1차전",
+    "id": "fx-bra-hai",
+    "group": "C",
+    "stage": "조별리그 2차전",
     "home": {
       "code": "BRA",
       "name": "브라질",
       "flag": "🇧🇷"
     },
     "away": {
-      "code": "AUS",
-      "name": "호주",
-      "flag": "🇦🇺"
+      "code": "HAI",
+      "name": "아이티",
+      "flag": "🇭🇹"
     },
-    "kickoff": "2026-06-20T23:00:00+09:00",
+    "kickoff": "2026-06-20T09:30:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
+    "venue": "필라델피아 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-tur-par",
+    "group": "D",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "TUR",
+      "name": "튀르키예",
+      "flag": "🇹🇷"
+    },
+    "away": {
+      "code": "PAR",
+      "name": "파라과이",
+      "flag": "🇵🇾"
+    },
+    "kickoff": "2026-06-20T12:00:00+09:00",
+    "timeTBD": false,
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
     "broadcast": "MBC"
-  },
-  {
-    "id": "fx-arg-nor",
-    "group": "H",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "ARG",
-      "name": "아르헨티나",
-      "flag": "🇦🇷"
-    },
-    "away": {
-      "code": "NOR",
-      "name": "노르웨이",
-      "flag": "🇳🇴"
-    },
-    "kickoff": "2026-06-20T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-esp-cmr",
-    "group": "I",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "ESP",
-      "name": "스페인",
-      "flag": "🇪🇸"
-    },
-    "away": {
-      "code": "CMR",
-      "name": "카메룬",
-      "flag": "🇨🇲"
-    },
-    "kickoff": "2026-06-20T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "tvN"
   },
   {
     "id": "fx-ned-swe",
@@ -338,7 +262,7 @@
     },
     "kickoff": "2026-06-21T02:00:00+09:00",
     "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
+    "venue": "휴스턴 스타디움",
     "broadcast": "쿠팡플레이"
   },
   {
@@ -357,122 +281,8 @@
     },
     "kickoff": "2026-06-21T05:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
+    "venue": "토론토 스타디움",
     "broadcast": "tvN"
-  },
-  {
-    "id": "fx-jam-aus",
-    "group": "G",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "JAM",
-      "name": "자메이카",
-      "flag": "🇯🇲"
-    },
-    "away": {
-      "code": "AUS",
-      "name": "호주",
-      "flag": "🇦🇺"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-pan-nor",
-    "group": "H",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "PAN",
-      "name": "파나마",
-      "flag": "🇵🇦"
-    },
-    "away": {
-      "code": "NOR",
-      "name": "노르웨이",
-      "flag": "🇳🇴"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-crc-cmr",
-    "group": "I",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "CRC",
-      "name": "코스타리카",
-      "flag": "🇨🇷"
-    },
-    "away": {
-      "code": "CMR",
-      "name": "카메룬",
-      "flag": "🇨🇲"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-cro-nzl",
-    "group": "J",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "CRO",
-      "name": "크로아티아",
-      "flag": "🇭🇷"
-    },
-    "away": {
-      "code": "NZL",
-      "name": "뉴질랜드",
-      "flag": "🇳🇿"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-pol-egy",
-    "group": "K",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "POL",
-      "name": "폴란드",
-      "flag": "🇵🇱"
-    },
-    "away": {
-      "code": "EGY",
-      "name": "이집트",
-      "flag": "🇪🇬"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-aut-alg",
-    "group": "L",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "AUT",
-      "name": "오스트리아",
-      "flag": "🇦🇹"
-    },
-    "away": {
-      "code": "ALG",
-      "name": "알제리",
-      "flag": "🇩🇿"
-    },
-    "kickoff": "2026-06-21T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "NRG 스타디움 (휴스턴)",
-    "broadcast": "쿠팡플레이"
   },
   {
     "id": "fx-ecu-cuw",
@@ -490,7 +300,7 @@
     },
     "kickoff": "2026-06-21T09:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
+    "venue": "캔자스 시티 스타디움",
     "broadcast": "KBS"
   },
   {
@@ -509,50 +319,12 @@
     },
     "kickoff": "2026-06-21T13:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 BBVA (몬테레이, 멕시코)",
-    "broadcast": "tvN"
+    "venue": "몬테레이 스타디움",
+    "broadcast": "SBS"
   },
   {
-    "id": "fx-bra-sco",
-    "group": "G",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "BRA",
-      "name": "브라질",
-      "flag": "🇧🇷"
-    },
-    "away": {
-      "code": "SCO",
-      "name": "스코틀랜드",
-      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-    },
-    "kickoff": "2026-06-21T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "tvN"
-  },
-  {
-    "id": "fx-arg-nga",
+    "id": "fx-esp-ksa",
     "group": "H",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "ARG",
-      "name": "아르헨티나",
-      "flag": "🇦🇷"
-    },
-    "away": {
-      "code": "NGA",
-      "name": "나이지리아",
-      "flag": "🇳🇬"
-    },
-    "kickoff": "2026-06-21T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "KBS"
-  },
-  {
-    "id": "fx-esp-uzb",
-    "group": "I",
     "stage": "조별리그 2차전",
     "home": {
       "code": "ESP",
@@ -560,75 +332,56 @@
       "flag": "🇪🇸"
     },
     "away": {
-      "code": "UZB",
-      "name": "우즈베키스탄",
-      "flag": "🇺🇿"
+      "code": "KSA",
+      "name": "사우디아라비아",
+      "flag": "🇸🇦"
     },
-    "kickoff": "2026-06-21T23:00:00+09:00",
+    "kickoff": "2026-06-22T01:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "SBS"
+    "venue": "애틀랜타 스타디움",
+    "broadcast": "MBC"
   },
   {
-    "id": "fx-bel-ita",
-    "group": "J",
-    "stage": "조별리그 1차전",
+    "id": "fx-bel-irn",
+    "group": "G",
+    "stage": "조별리그 2차전",
     "home": {
       "code": "BEL",
       "name": "벨기에",
       "flag": "🇧🇪"
     },
     "away": {
-      "code": "ITA",
-      "name": "이탈리아",
-      "flag": "🇮🇹"
+      "code": "IRN",
+      "name": "이란",
+      "flag": "🇮🇷"
     },
-    "kickoff": "2026-06-21T23:00:00+09:00",
+    "kickoff": "2026-06-22T04:00:00+09:00",
     "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "KBS"
+    "venue": "로스앤젤레스 스타디움",
+    "broadcast": "쿠팡플레이"
   },
   {
-    "id": "fx-col-mar",
-    "group": "K",
-    "stage": "조별리그 1차전",
+    "id": "fx-uru-cpv",
+    "group": "H",
+    "stage": "조별리그 2차전",
     "home": {
-      "code": "COL",
-      "name": "콜롬비아",
-      "flag": "🇨🇴"
+      "code": "URU",
+      "name": "우루과이",
+      "flag": "🇺🇾"
     },
     "away": {
-      "code": "MAR",
-      "name": "모로코",
-      "flag": "🇲🇦"
+      "code": "CPV",
+      "name": "카보베르데",
+      "flag": "🇨🇻"
     },
-    "kickoff": "2026-06-21T23:00:00+09:00",
+    "kickoff": "2026-06-22T07:00:00+09:00",
     "timeTBD": false,
-    "venue": "메르세데스-벤츠 스타디움 (애틀랜타)",
-    "broadcast": "SBS"
+    "venue": "마이애미 스타디움",
+    "broadcast": "tvN"
   },
   {
-    "id": "fx-can-sen",
-    "group": "L",
-    "stage": "조별리그 1차전",
-    "home": {
-      "code": "CAN",
-      "name": "캐나다",
-      "flag": "🇨🇦"
-    },
-    "away": {
-      "code": "SEN",
-      "name": "세네갈",
-      "flag": "🇸🇳"
-    },
-    "kickoff": "2026-06-21T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "BMO 필드 (토론토, 캐나다)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-nzl-ita",
-    "group": "J",
+    "id": "fx-nzl-egy",
+    "group": "G",
     "stage": "조별리그 2차전",
     "home": {
       "code": "NZL",
@@ -636,74 +389,150 @@
       "flag": "🇳🇿"
     },
     "away": {
-      "code": "ITA",
-      "name": "이탈리아",
-      "flag": "🇮🇹"
-    },
-    "kickoff": "2026-06-22T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-egy-mar",
-    "group": "K",
-    "stage": "조별리그 2차전",
-    "home": {
       "code": "EGY",
       "name": "이집트",
       "flag": "🇪🇬"
     },
-    "away": {
-      "code": "MAR",
-      "name": "모로코",
-      "flag": "🇲🇦"
-    },
-    "kickoff": "2026-06-22T08:00:00+09:00",
+    "kickoff": "2026-06-22T10:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "tvN"
+    "venue": "BC 플레이스 밴쿠버",
+    "broadcast": "KBS"
   },
   {
-    "id": "fx-alg-sen",
-    "group": "L",
+    "id": "fx-arg-aut",
+    "group": "J",
     "stage": "조별리그 2차전",
     "home": {
-      "code": "ALG",
-      "name": "알제리",
-      "flag": "🇩🇿"
+      "code": "ARG",
+      "name": "아르헨티나",
+      "flag": "🇦🇷"
+    },
+    "away": {
+      "code": "AUT",
+      "name": "오스트리아",
+      "flag": "🇦🇹"
+    },
+    "kickoff": "2026-06-23T02:00:00+09:00",
+    "timeTBD": false,
+    "venue": "달라스 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-fra-irq",
+    "group": "I",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "FRA",
+      "name": "프랑스",
+      "flag": "🇫🇷"
+    },
+    "away": {
+      "code": "IRQ",
+      "name": "이라크",
+      "flag": "🇮🇶"
+    },
+    "kickoff": "2026-06-23T06:00:00+09:00",
+    "timeTBD": false,
+    "venue": "필라델피아 스타디움",
+    "broadcast": "MBC"
+  },
+  {
+    "id": "fx-nor-sen",
+    "group": "I",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "NOR",
+      "name": "노르웨이",
+      "flag": "🇳🇴"
     },
     "away": {
       "code": "SEN",
       "name": "세네갈",
       "flag": "🇸🇳"
     },
-    "kickoff": "2026-06-22T08:00:00+09:00",
+    "kickoff": "2026-06-23T09:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "KBS"
+    "venue": "뉴욕 뉴저지 스타디움",
+    "broadcast": "쿠팡플레이"
   },
   {
-    "id": "fx-bel-cro",
+    "id": "fx-jor-alg",
     "group": "J",
     "stage": "조별리그 2차전",
     "home": {
-      "code": "BEL",
-      "name": "벨기에",
-      "flag": "🇧🇪"
+      "code": "JOR",
+      "name": "요르단",
+      "flag": "🇯🇴"
+    },
+    "away": {
+      "code": "ALG",
+      "name": "알제리",
+      "flag": "🇩🇿"
+    },
+    "kickoff": "2026-06-23T12:00:00+09:00",
+    "timeTBD": false,
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
+    "broadcast": "tvN"
+  },
+  {
+    "id": "fx-por-uzb",
+    "group": "K",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "POR",
+      "name": "포르투갈",
+      "flag": "🇵🇹"
+    },
+    "away": {
+      "code": "UZB",
+      "name": "우즈베키스탄",
+      "flag": "🇺🇿"
+    },
+    "kickoff": "2026-06-24T02:00:00+09:00",
+    "timeTBD": false,
+    "venue": "휴스턴 스타디움",
+    "broadcast": "KBS"
+  },
+  {
+    "id": "fx-eng-gha",
+    "group": "L",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "ENG",
+      "name": "잉글랜드",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "away": {
+      "code": "GHA",
+      "name": "가나",
+      "flag": "🇬🇭"
+    },
+    "kickoff": "2026-06-24T05:00:00+09:00",
+    "timeTBD": false,
+    "venue": "보스턴 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-pan-cro",
+    "group": "L",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "PAN",
+      "name": "파나마",
+      "flag": "🇵🇦"
     },
     "away": {
       "code": "CRO",
       "name": "크로아티아",
       "flag": "🇭🇷"
     },
-    "kickoff": "2026-06-22T23:00:00+09:00",
+    "kickoff": "2026-06-24T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
+    "venue": "토론토 스타디움",
     "broadcast": "MBC"
   },
   {
-    "id": "fx-col-pol",
+    "id": "fx-col-cod",
     "group": "K",
     "stage": "조별리그 2차전",
     "home": {
@@ -712,36 +541,17 @@
       "flag": "🇨🇴"
     },
     "away": {
-      "code": "POL",
-      "name": "폴란드",
-      "flag": "🇵🇱"
+      "code": "COD",
+      "name": "콩고민주공화국",
+      "flag": "🇨🇩"
     },
-    "kickoff": "2026-06-22T23:00:00+09:00",
+    "kickoff": "2026-06-24T11:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
+    "venue": "에스타디오 과달라하라",
     "broadcast": "쿠팡플레이"
   },
   {
-    "id": "fx-can-aut",
-    "group": "L",
-    "stage": "조별리그 2차전",
-    "home": {
-      "code": "CAN",
-      "name": "캐나다",
-      "flag": "🇨🇦"
-    },
-    "away": {
-      "code": "AUT",
-      "name": "오스트리아",
-      "flag": "🇦🇹"
-    },
-    "kickoff": "2026-06-22T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "레비스 스타디움 (샌프란시스코)",
-    "broadcast": "tvN"
-  },
-  {
-    "id": "fx-sui-eng",
+    "id": "fx-sui-can",
     "group": "B",
     "stage": "조별리그 3차전",
     "home": {
@@ -750,108 +560,89 @@
       "flag": "🇨🇭"
     },
     "away": {
-      "code": "ENG",
-      "name": "잉글랜드",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      "code": "CAN",
+      "name": "캐나다",
+      "flag": "🇨🇦"
     },
-    "kickoff": "2026-06-24T08:00:00+09:00",
+    "kickoff": "2026-06-25T04:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "쿠팡플레이"
+    "venue": "BC 플레이스 밴쿠버",
+    "broadcast": "tvN"
   },
   {
-    "id": "fx-ksa-por",
-    "group": "C",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "KSA",
-      "name": "사우디아라비아",
-      "flag": "🇸🇦"
-    },
-    "away": {
-      "code": "POR",
-      "name": "포르투갈",
-      "flag": "🇵🇹"
-    },
-    "kickoff": "2026-06-24T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-qat-irn",
+    "id": "fx-bih-qat",
     "group": "B",
     "stage": "조별리그 3차전",
     "home": {
+      "code": "BIH",
+      "name": "보스니아헤르체고비나",
+      "flag": "🇧🇦"
+    },
+    "away": {
       "code": "QAT",
       "name": "카타르",
       "flag": "🇶🇦"
     },
-    "away": {
-      "code": "IRN",
-      "name": "이란",
-      "flag": "🇮🇷"
-    },
-    "kickoff": "2026-06-24T23:00:00+09:00",
+    "kickoff": "2026-06-25T04:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "MBC"
+    "venue": "시애틀 스타디움",
+    "broadcast": "KBS"
   },
   {
-    "id": "fx-uru-gha",
+    "id": "fx-sco-bra",
     "group": "C",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "URU",
-      "name": "우루과이",
-      "flag": "🇺🇾"
+      "code": "SCO",
+      "name": "스코틀랜드",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     },
     "away": {
-      "code": "GHA",
-      "name": "가나",
-      "flag": "🇬🇭"
+      "code": "BRA",
+      "name": "브라질",
+      "flag": "🇧🇷"
     },
-    "kickoff": "2026-06-24T23:00:00+09:00",
+    "kickoff": "2026-06-25T07:00:00+09:00",
     "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
+    "venue": "마이애미 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-mar-hai",
+    "group": "C",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "MAR",
+      "name": "모로코",
+      "flag": "🇲🇦"
+    },
+    "away": {
+      "code": "HAI",
+      "name": "아이티",
+      "flag": "🇭🇹"
+    },
+    "kickoff": "2026-06-25T07:00:00+09:00",
+    "timeTBD": false,
+    "venue": "애틀랜타 스타디움",
     "broadcast": "MBC"
   },
   {
-    "id": "fx-par-fra",
-    "group": "D",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "PAR",
-      "name": "파라과이",
-      "flag": "🇵🇾"
-    },
-    "away": {
-      "code": "FRA",
-      "name": "프랑스",
-      "flag": "🇫🇷"
-    },
-    "kickoff": "2026-06-25T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-kor-rsa",
+    "id": "fx-rsa-kor",
     "group": "A",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "KOR",
-      "name": "대한민국",
-      "flag": "🇰🇷"
-    },
-    "away": {
       "code": "RSA",
       "name": "남아프리카공화국",
       "flag": "🇿🇦"
     },
+    "away": {
+      "code": "KOR",
+      "name": "대한민국",
+      "flag": "🇰🇷"
+    },
     "kickoff": "2026-06-25T10:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 BBVA (몬테레이, 멕시코)",
+    "venue": "몬테레이 스타디움",
     "broadcast": "KBS"
   },
   {
@@ -870,46 +661,8 @@
     },
     "kickoff": "2026-06-25T10:00:00+09:00",
     "timeTBD": false,
-    "venue": "에스타디오 아스테카 (멕시코시티)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-usa-jor",
-    "group": "D",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "USA",
-      "name": "미국",
-      "flag": "🇺🇸"
-    },
-    "away": {
-      "code": "JOR",
-      "name": "요르단",
-      "flag": "🇯🇴"
-    },
-    "kickoff": "2026-06-25T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-ger-ecu",
-    "group": "E",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "GER",
-      "name": "독일",
-      "flag": "🇩🇪"
-    },
-    "away": {
-      "code": "ECU",
-      "name": "에콰도르",
-      "flag": "🇪🇨"
-    },
-    "kickoff": "2026-06-26T05:00:00+09:00",
-    "timeTBD": false,
-    "venue": "MetLife 스타디움 (뉴욕/뉴저지)",
-    "broadcast": "SBS"
+    "venue": "멕시코 시티 스타디움",
+    "broadcast": "tvN"
   },
   {
     "id": "fx-cuw-civ",
@@ -927,27 +680,46 @@
     },
     "kickoff": "2026-06-26T05:00:00+09:00",
     "timeTBD": false,
-    "venue": "링컨 파이낸셜 필드 (필라델피아)",
-    "broadcast": "MBC"
+    "venue": "필라델피아 스타디움",
+    "broadcast": "KBS"
   },
   {
-    "id": "fx-ned-tun",
+    "id": "fx-ecu-ger",
+    "group": "E",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "ECU",
+      "name": "에콰도르",
+      "flag": "🇪🇨"
+    },
+    "away": {
+      "code": "GER",
+      "name": "독일",
+      "flag": "🇩🇪"
+    },
+    "kickoff": "2026-06-26T05:00:00+09:00",
+    "timeTBD": false,
+    "venue": "뉴욕 뉴저지 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-tun-ned",
     "group": "F",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "NED",
-      "name": "네덜란드",
-      "flag": "🇳🇱"
-    },
-    "away": {
       "code": "TUN",
       "name": "튀니지",
       "flag": "🇹🇳"
     },
+    "away": {
+      "code": "NED",
+      "name": "네덜란드",
+      "flag": "🇳🇱"
+    },
     "kickoff": "2026-06-26T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "애로헤드 스타디움 (캔자스시티)",
-    "broadcast": "KBS"
+    "venue": "캔자스 시티 스타디움",
+    "broadcast": "MBC"
   },
   {
     "id": "fx-jpn-swe",
@@ -965,164 +737,50 @@
     },
     "kickoff": "2026-06-26T08:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "SBS"
+    "venue": "달라스 스타디움",
+    "broadcast": "쿠팡플레이"
   },
   {
-    "id": "fx-aus-sco",
-    "group": "G",
+    "id": "fx-par-aus",
+    "group": "D",
     "stage": "조별리그 3차전",
     "home": {
+      "code": "PAR",
+      "name": "파라과이",
+      "flag": "🇵🇾"
+    },
+    "away": {
       "code": "AUS",
       "name": "호주",
       "flag": "🇦🇺"
     },
-    "away": {
-      "code": "SCO",
-      "name": "스코틀랜드",
-      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-    },
-    "kickoff": "2026-06-26T08:00:00+09:00",
+    "kickoff": "2026-06-26T11:00:00+09:00",
     "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-nor-nga",
-    "group": "H",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "NOR",
-      "name": "노르웨이",
-      "flag": "🇳🇴"
-    },
-    "away": {
-      "code": "NGA",
-      "name": "나이지리아",
-      "flag": "🇳🇬"
-    },
-    "kickoff": "2026-06-26T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-cmr-uzb",
-    "group": "I",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "CMR",
-      "name": "카메룬",
-      "flag": "🇨🇲"
-    },
-    "away": {
-      "code": "UZB",
-      "name": "우즈베키스탄",
-      "flag": "🇺🇿"
-    },
-    "kickoff": "2026-06-26T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
     "broadcast": "tvN"
   },
   {
-    "id": "fx-bra-jam",
-    "group": "G",
+    "id": "fx-tur-usa",
+    "group": "D",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "BRA",
-      "name": "브라질",
-      "flag": "🇧🇷"
+      "code": "TUR",
+      "name": "튀르키예",
+      "flag": "🇹🇷"
     },
     "away": {
-      "code": "JAM",
-      "name": "자메이카",
-      "flag": "🇯🇲"
+      "code": "USA",
+      "name": "미국",
+      "flag": "🇺🇸"
     },
-    "kickoff": "2026-06-26T23:00:00+09:00",
+    "kickoff": "2026-06-26T11:00:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-arg-pan",
-    "group": "H",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "ARG",
-      "name": "아르헨티나",
-      "flag": "🇦🇷"
-    },
-    "away": {
-      "code": "PAN",
-      "name": "파나마",
-      "flag": "🇵🇦"
-    },
-    "kickoff": "2026-06-26T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "MBC"
-  },
-  {
-    "id": "fx-esp-crc",
-    "group": "I",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "ESP",
-      "name": "스페인",
-      "flag": "🇪🇸"
-    },
-    "away": {
-      "code": "CRC",
-      "name": "코스타리카",
-      "flag": "🇨🇷"
-    },
-    "kickoff": "2026-06-26T23:00:00+09:00",
-    "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
-    "broadcast": "쿠팡플레이"
-  },
-  {
-    "id": "fx-ita-cro",
-    "group": "J",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "ITA",
-      "name": "이탈리아",
-      "flag": "🇮🇹"
-    },
-    "away": {
-      "code": "CRO",
-      "name": "크로아티아",
-      "flag": "🇭🇷"
-    },
-    "kickoff": "2026-06-27T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
+    "venue": "로스앤젤레스 스타디움",
     "broadcast": "KBS"
   },
   {
-    "id": "fx-mar-pol",
-    "group": "K",
-    "stage": "조별리그 3차전",
-    "home": {
-      "code": "MAR",
-      "name": "모로코",
-      "flag": "🇲🇦"
-    },
-    "away": {
-      "code": "POL",
-      "name": "폴란드",
-      "flag": "🇵🇱"
-    },
-    "kickoff": "2026-06-27T08:00:00+09:00",
-    "timeTBD": false,
-    "venue": "BC 플레이스 (밴쿠버, 캐나다)",
-    "broadcast": "SBS"
-  },
-  {
-    "id": "fx-sen-aut",
-    "group": "L",
+    "id": "fx-sen-irq",
+    "group": "I",
     "stage": "조별리그 3차전",
     "home": {
       "code": "SEN",
@@ -1130,36 +788,150 @@
       "flag": "🇸🇳"
     },
     "away": {
-      "code": "AUT",
-      "name": "오스트리아",
-      "flag": "🇦🇹"
+      "code": "IRQ",
+      "name": "이라크",
+      "flag": "🇮🇶"
     },
-    "kickoff": "2026-06-27T08:00:00+09:00",
+    "kickoff": "2026-06-27T04:00:00+09:00",
     "timeTBD": false,
-    "venue": "AT&T 스타디움 (댈러스)",
+    "venue": "토론토 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-nor-fra",
+    "group": "I",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "NOR",
+      "name": "노르웨이",
+      "flag": "🇳🇴"
+    },
+    "away": {
+      "code": "FRA",
+      "name": "프랑스",
+      "flag": "🇫🇷"
+    },
+    "kickoff": "2026-06-27T04:00:00+09:00",
+    "timeTBD": false,
+    "venue": "보스턴 스타디움",
     "broadcast": "MBC"
   },
   {
-    "id": "fx-bel-nzl",
-    "group": "J",
+    "id": "fx-uru-esp",
+    "group": "H",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "BEL",
-      "name": "벨기에",
-      "flag": "🇧🇪"
+      "code": "URU",
+      "name": "우루과이",
+      "flag": "🇺🇾"
     },
     "away": {
+      "code": "ESP",
+      "name": "스페인",
+      "flag": "🇪🇸"
+    },
+    "kickoff": "2026-06-27T09:00:00+09:00",
+    "timeTBD": false,
+    "venue": "에스타디오 과달라하라",
+    "broadcast": "쿠팡플레이"
+  },
+  {
+    "id": "fx-cpv-ksa",
+    "group": "H",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "CPV",
+      "name": "카보베르데",
+      "flag": "🇨🇻"
+    },
+    "away": {
+      "code": "KSA",
+      "name": "사우디아라비아",
+      "flag": "🇸🇦"
+    },
+    "kickoff": "2026-06-27T09:00:00+09:00",
+    "timeTBD": false,
+    "venue": "휴스턴 스타디움",
+    "broadcast": "tvN"
+  },
+  {
+    "id": "fx-nzl-bel",
+    "group": "G",
+    "stage": "조별리그 3차전",
+    "home": {
       "code": "NZL",
       "name": "뉴질랜드",
       "flag": "🇳🇿"
     },
-    "kickoff": "2026-06-27T23:00:00+09:00",
+    "away": {
+      "code": "BEL",
+      "name": "벨기에",
+      "flag": "🇧🇪"
+    },
+    "kickoff": "2026-06-27T12:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "tvN"
+    "venue": "BC 플레이스 밴쿠버",
+    "broadcast": "KBS"
   },
   {
-    "id": "fx-col-egy",
+    "id": "fx-egy-irn",
+    "group": "G",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "EGY",
+      "name": "이집트",
+      "flag": "🇪🇬"
+    },
+    "away": {
+      "code": "IRN",
+      "name": "이란",
+      "flag": "🇮🇷"
+    },
+    "kickoff": "2026-06-27T12:00:00+09:00",
+    "timeTBD": false,
+    "venue": "시애틀 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-pan-eng",
+    "group": "L",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "PAN",
+      "name": "파나마",
+      "flag": "🇵🇦"
+    },
+    "away": {
+      "code": "ENG",
+      "name": "잉글랜드",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "kickoff": "2026-06-28T06:00:00+09:00",
+    "timeTBD": false,
+    "venue": "뉴욕 뉴저지 스타디움",
+    "broadcast": "MBC"
+  },
+  {
+    "id": "fx-cro-gha",
+    "group": "L",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "CRO",
+      "name": "크로아티아",
+      "flag": "🇭🇷"
+    },
+    "away": {
+      "code": "GHA",
+      "name": "가나",
+      "flag": "🇬🇭"
+    },
+    "kickoff": "2026-06-28T06:00:00+09:00",
+    "timeTBD": false,
+    "venue": "필라델피아 스타디움",
+    "broadcast": "쿠팡플레이"
+  },
+  {
+    "id": "fx-col-por",
     "group": "K",
     "stage": "조별리그 3차전",
     "home": {
@@ -1168,32 +940,70 @@
       "flag": "🇨🇴"
     },
     "away": {
-      "code": "EGY",
-      "name": "이집트",
-      "flag": "🇪🇬"
+      "code": "POR",
+      "name": "포르투갈",
+      "flag": "🇵🇹"
     },
-    "kickoff": "2026-06-27T23:00:00+09:00",
+    "kickoff": "2026-06-28T08:30:00+09:00",
     "timeTBD": false,
-    "venue": "기예르모 카뇨 (몬테레이, 멕시코)",
+    "venue": "마이애미 스타디움",
+    "broadcast": "tvN"
+  },
+  {
+    "id": "fx-cod-uzb",
+    "group": "K",
+    "stage": "조별리그 3차전",
+    "home": {
+      "code": "COD",
+      "name": "콩고민주공화국",
+      "flag": "🇨🇩"
+    },
+    "away": {
+      "code": "UZB",
+      "name": "우즈베키스탄",
+      "flag": "🇺🇿"
+    },
+    "kickoff": "2026-06-28T08:30:00+09:00",
+    "timeTBD": false,
+    "venue": "애틀랜타 스타디움",
     "broadcast": "KBS"
   },
   {
-    "id": "fx-can-alg",
-    "group": "L",
+    "id": "fx-jor-arg",
+    "group": "J",
     "stage": "조별리그 3차전",
     "home": {
-      "code": "CAN",
-      "name": "캐나다",
-      "flag": "🇨🇦"
+      "code": "JOR",
+      "name": "요르단",
+      "flag": "🇯🇴"
     },
     "away": {
+      "code": "ARG",
+      "name": "아르헨티나",
+      "flag": "🇦🇷"
+    },
+    "kickoff": "2026-06-28T11:00:00+09:00",
+    "timeTBD": false,
+    "venue": "달라스 스타디움",
+    "broadcast": "SBS"
+  },
+  {
+    "id": "fx-alg-aut",
+    "group": "J",
+    "stage": "조별리그 3차전",
+    "home": {
       "code": "ALG",
       "name": "알제리",
       "flag": "🇩🇿"
     },
-    "kickoff": "2026-06-27T23:00:00+09:00",
+    "away": {
+      "code": "AUT",
+      "name": "오스트리아",
+      "flag": "🇦🇹"
+    },
+    "kickoff": "2026-06-28T11:00:00+09:00",
     "timeTBD": false,
-    "venue": "SoFi 스타디움 (로스앤젤레스)",
-    "broadcast": "SBS"
+    "venue": "캔자스 시티 스타디움",
+    "broadcast": "MBC"
   }
 ]

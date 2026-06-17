@@ -54,6 +54,13 @@ const TEAMS = {
   AUT: { name: '오스트리아', flag: '🇦🇹', aliases: ['오스트리아'] },
   SCO: { name: '스코틀랜드', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', aliases: ['스코틀랜드'] },
   POL: { name: '폴란드', flag: '🇵🇱', aliases: ['폴란드'] },
+  // 2026 본선 실제 진출국 보강 (실제 draw 반영)
+  BIH: { name: '보스니아헤르체고비나', flag: '🇧🇦', aliases: ['보스니아 헤르체고비나', '보스니아헤르체고비나', '보스니아'] },
+  HAI: { name: '아이티', flag: '🇭🇹', aliases: ['아이티'] },
+  TUR: { name: '튀르키예', flag: '🇹🇷', aliases: ['튀르키예', '터키'] },
+  CPV: { name: '카보베르데', flag: '🇨🇻', aliases: ['카보베르데'] },
+  IRQ: { name: '이라크', flag: '🇮🇶', aliases: ['이라크'] },
+  COD: { name: '콩고민주공화국', flag: '🇨🇩', aliases: ['콩고민주공화국', '콩고DR', 'DR콩고'] },
 };
 
 // alias → code 역색인 (긴 별칭부터 매칭하도록 정렬용 목록도 생성)
