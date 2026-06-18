@@ -244,11 +244,11 @@
     "venue": "휴스턴 스타디움",
     "group": "K",
     "round": "1",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "POR",
     "away": "COD",
-    "hs": 0,
-    "as": 0,
+    "hs": 1,
+    "as": 1,
     "winner": "DRAW"
   },
   {
@@ -256,12 +256,12 @@
     "venue": "달라스 스타디움",
     "group": "L",
     "round": "1",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "ENG",
     "away": "CRO",
-    "hs": 0,
-    "as": 0,
-    "winner": "DRAW"
+    "hs": 4,
+    "as": 2,
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-18T08:00:00",

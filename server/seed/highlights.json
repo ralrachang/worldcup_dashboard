@@ -1,5 +1,41 @@
 [
   {
+    "id": "hl-eng-cro",
+    "title": "잉글랜드 4-2 크로아티아 하이라이트",
+    "home": {
+      "code": "ENG",
+      "name": "잉글랜드",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "away": {
+      "code": "CRO",
+      "name": "크로아티아",
+      "flag": "🇭🇷"
+    },
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C%20%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "thumbnail": "",
+    "publishedAt": "2026-06-18T05:00:00+09:00"
+  },
+  {
+    "id": "hl-por-cod",
+    "title": "포르투갈 1-1 콩고민주공화국 하이라이트",
+    "home": {
+      "code": "POR",
+      "name": "포르투갈",
+      "flag": "🇵🇹"
+    },
+    "away": {
+      "code": "COD",
+      "name": "콩고민주공화국",
+      "flag": "🇨🇩"
+    },
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%ED%8F%AC%EB%A5%B4%ED%88%AC%EA%B0%88%20%EC%BD%A9%EA%B3%A0%EB%AF%BC%EC%A3%BC%EA%B3%B5%ED%99%94%EA%B5%AD%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "thumbnail": "",
+    "publishedAt": "2026-06-18T02:00:00+09:00"
+  },
+  {
     "id": "hl-aut-jor",
     "title": "오스트리아 3-1 요르단 하이라이트",
     "home": {
