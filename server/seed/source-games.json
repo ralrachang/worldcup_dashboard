@@ -268,35 +268,35 @@
     "venue": "토론토 스타디움",
     "group": "L",
     "round": "1",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "GHA",
     "away": "PAN",
-    "hs": 0,
+    "hs": 1,
     "as": 0,
-    "winner": "DRAW"
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-18T11:00:00",
     "venue": "멕시코 시티 스타디움",
     "group": "K",
     "round": "1",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "UZB",
     "away": "COL",
-    "hs": 0,
-    "as": 0,
-    "winner": "DRAW"
+    "hs": 1,
+    "as": 3,
+    "winner": "AWAY"
   },
   {
     "dt": "2026-06-19T01:00:00",
     "venue": "애틀랜타 스타디움",
     "group": "A",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "CZE",
     "away": "RSA",
-    "hs": 0,
-    "as": 0,
+    "hs": 1,
+    "as": 1,
     "winner": "DRAW"
   },
   {
@@ -304,24 +304,24 @@
     "venue": "로스앤젤레스 스타디움",
     "group": "B",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "SUI",
     "away": "BIH",
-    "hs": 0,
-    "as": 0,
-    "winner": "DRAW"
+    "hs": 4,
+    "as": 1,
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-19T07:00:00",
     "venue": "BC 플레이스 밴쿠버",
     "group": "B",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "CAN",
     "away": "QAT",
-    "hs": 0,
+    "hs": 6,
     "as": 0,
-    "winner": "DRAW"
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-19T10:00:00",
