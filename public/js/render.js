@@ -40,6 +40,7 @@ function renderResults(list) {
     const hWin = m.homeScore > m.awayScore;
     const aWin = m.awayScore > m.homeScore;
     const groupTag = m.group ? `<span class="match-card__group">GROUP ${esc(m.group)}</span>` : '<span></span>';
+    const { day, time } = fmtKickoff(m.publishedAt);
     const hl = m.highlightLink
       ? `<a class="hl-link" href="${esc(m.highlightLink)}" target="_blank" rel="noopener">▷ 하이라이트</a>`
       : '<span></span>';
@@ -64,6 +65,7 @@ function renderResults(list) {
           <span class="team__code">${esc(m.away.code)}</span>
         </a>
       </div>
+      <div class="match-card__when">${esc(day)} · ${esc(time)}<small>KST</small></div>
       <div class="match-card__foot">
         <span class="match-card__src">${esc(m.source || '')}</span>
         ${hl}
