@@ -328,36 +328,36 @@
     "venue": "에스타디오 과달라하라",
     "group": "A",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "MEX",
     "away": "KOR",
-    "hs": 0,
+    "hs": 1,
     "as": 0,
-    "winner": "DRAW"
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-20T04:00:00",
     "venue": "시애틀 스타디움",
     "group": "D",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "USA",
     "away": "AUS",
-    "hs": 0,
+    "hs": 2,
     "as": 0,
-    "winner": "DRAW"
+    "winner": "HOME"
   },
   {
     "dt": "2026-06-20T07:00:00",
     "venue": "보스턴 스타디움",
     "group": "C",
     "round": "2",
-    "status": "BEFORE",
+    "status": "RESULT",
     "home": "SCO",
     "away": "MAR",
     "hs": 0,
-    "as": 0,
-    "winner": "DRAW"
+    "as": 1,
+    "winner": "AWAY"
   },
   {
     "dt": "2026-06-20T09:30:00",
