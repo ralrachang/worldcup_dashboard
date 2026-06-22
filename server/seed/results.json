@@ -1,5 +1,291 @@
 [
   {
+    "id": "arg-aut",
+    "group": "J",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "ARG",
+      "name": "아르헨티나",
+      "flag": "🇦🇷"
+    },
+    "away": {
+      "code": "AUT",
+      "name": "오스트리아",
+      "flag": "🇦🇹"
+    },
+    "homeScore": 2,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "아르헨티나, 오스트리아 꺾고 2-0 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%95%84%EB%A5%B4%ED%97%A8%ED%8B%B0%EB%82%98%20%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%95%84%EB%A5%B4%ED%97%A8%ED%8B%B0%EB%82%98%20%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "달라스 스타디움",
+    "publishedAt": "2026-06-23T02:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "nzl-egy",
+    "group": "G",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "NZL",
+      "name": "뉴질랜드",
+      "flag": "🇳🇿"
+    },
+    "away": {
+      "code": "EGY",
+      "name": "이집트",
+      "flag": "🇪🇬"
+    },
+    "homeScore": 1,
+    "awayScore": 3,
+    "status": "FT",
+    "headline": "이집트, 뉴질랜드 원정서 3-1 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EB%89%B4%EC%A7%88%EB%9E%9C%EB%93%9C%20%EC%9D%B4%EC%A7%91%ED%8A%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%89%B4%EC%A7%88%EB%9E%9C%EB%93%9C%20%EC%9D%B4%EC%A7%91%ED%8A%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "BC 플레이스 밴쿠버",
+    "publishedAt": "2026-06-22T10:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "uru-cpv",
+    "group": "H",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "URU",
+      "name": "우루과이",
+      "flag": "🇺🇾"
+    },
+    "away": {
+      "code": "CPV",
+      "name": "카보베르데",
+      "flag": "🇨🇻"
+    },
+    "homeScore": 2,
+    "awayScore": 2,
+    "status": "FT",
+    "headline": "우루과이 2-2 카보베르데 무승부",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4%20%EC%B9%B4%EB%B3%B4%EB%B2%A0%EB%A5%B4%EB%8D%B0%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4%20%EC%B9%B4%EB%B3%B4%EB%B2%A0%EB%A5%B4%EB%8D%B0%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "마이애미 스타디움",
+    "publishedAt": "2026-06-22T07:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "bel-irn",
+    "group": "G",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "BEL",
+      "name": "벨기에",
+      "flag": "🇧🇪"
+    },
+    "away": {
+      "code": "IRN",
+      "name": "이란",
+      "flag": "🇮🇷"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "벨기에 0-0 이란 무승부",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EB%B2%A8%EA%B8%B0%EC%97%90%20%EC%9D%B4%EB%9E%80%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%B2%A8%EA%B8%B0%EC%97%90%20%EC%9D%B4%EB%9E%80%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "로스앤젤레스 스타디움",
+    "publishedAt": "2026-06-22T04:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "esp-ksa",
+    "group": "H",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "ESP",
+      "name": "스페인",
+      "flag": "🇪🇸"
+    },
+    "away": {
+      "code": "KSA",
+      "name": "사우디아라비아",
+      "flag": "🇸🇦"
+    },
+    "homeScore": 4,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "스페인, 사우디아라비아 꺾고 4-0 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%8A%A4%ED%8E%98%EC%9D%B8%20%EC%82%AC%EC%9A%B0%EB%94%94%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%8A%A4%ED%8E%98%EC%9D%B8%20%EC%82%AC%EC%9A%B0%EB%94%94%EC%95%84%EB%9D%BC%EB%B9%84%EC%95%84%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "애틀랜타 스타디움",
+    "publishedAt": "2026-06-22T01:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "tun-jpn",
+    "group": "F",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "TUN",
+      "name": "튀니지",
+      "flag": "🇹🇳"
+    },
+    "away": {
+      "code": "JPN",
+      "name": "일본",
+      "flag": "🇯🇵"
+    },
+    "homeScore": 0,
+    "awayScore": 4,
+    "status": "FT",
+    "headline": "일본, 튀니지 원정서 4-0 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%ED%8A%80%EB%8B%88%EC%A7%80%20%EC%9D%BC%EB%B3%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%ED%8A%80%EB%8B%88%EC%A7%80%20%EC%9D%BC%EB%B3%B8%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "몬테레이 스타디움",
+    "publishedAt": "2026-06-21T13:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "ecu-cuw",
+    "group": "E",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "ECU",
+      "name": "에콰도르",
+      "flag": "🇪🇨"
+    },
+    "away": {
+      "code": "CUW",
+      "name": "퀴라소",
+      "flag": "🇨🇼"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "에콰도르 0-0 퀴라소 무승부",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EC%97%90%EC%BD%B0%EB%8F%84%EB%A5%B4%20%ED%80%B4%EB%9D%BC%EC%86%8C%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EC%97%90%EC%BD%B0%EB%8F%84%EB%A5%B4%20%ED%80%B4%EB%9D%BC%EC%86%8C%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "캔자스 시티 스타디움",
+    "publishedAt": "2026-06-21T09:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "ger-civ",
+    "group": "E",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "GER",
+      "name": "독일",
+      "flag": "🇩🇪"
+    },
+    "away": {
+      "code": "CIV",
+      "name": "코트디부아르",
+      "flag": "🇨🇮"
+    },
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "독일, 코트디부아르 꺾고 2-1 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EB%8F%85%EC%9D%BC%20%EC%BD%94%ED%8A%B8%EB%94%94%EB%B6%80%EC%95%84%EB%A5%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%8F%85%EC%9D%BC%20%EC%BD%94%ED%8A%B8%EB%94%94%EB%B6%80%EC%95%84%EB%A5%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "토론토 스타디움",
+    "publishedAt": "2026-06-21T05:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "ned-swe",
+    "group": "F",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "NED",
+      "name": "네덜란드",
+      "flag": "🇳🇱"
+    },
+    "away": {
+      "code": "SWE",
+      "name": "스웨덴",
+      "flag": "🇸🇪"
+    },
+    "homeScore": 5,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "네덜란드, 스웨덴 꺾고 5-1 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C%20%EC%8A%A4%EC%9B%A8%EB%8D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C%20%EC%8A%A4%EC%9B%A8%EB%8D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "휴스턴 스타디움",
+    "publishedAt": "2026-06-21T02:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "tur-par",
+    "group": "D",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "TUR",
+      "name": "튀르키예",
+      "flag": "🇹🇷"
+    },
+    "away": {
+      "code": "PAR",
+      "name": "파라과이",
+      "flag": "🇵🇾"
+    },
+    "homeScore": 0,
+    "awayScore": 1,
+    "status": "FT",
+    "headline": "파라과이, 튀르키예 원정서 1-0 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%ED%8A%80%EB%A5%B4%ED%82%A4%EC%98%88%20%ED%8C%8C%EB%9D%BC%EA%B3%BC%EC%9D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%ED%8A%80%EB%A5%B4%ED%82%A4%EC%98%88%20%ED%8C%8C%EB%9D%BC%EA%B3%BC%EC%9D%B4%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "샌프란시스코 베이 에어리어 스타디움",
+    "publishedAt": "2026-06-20T12:00:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
+    "id": "bra-hai",
+    "group": "C",
+    "stage": "조별리그 2차전",
+    "home": {
+      "code": "BRA",
+      "name": "브라질",
+      "flag": "🇧🇷"
+    },
+    "away": {
+      "code": "HAI",
+      "name": "아이티",
+      "flag": "🇭🇹"
+    },
+    "homeScore": 3,
+    "awayScore": 0,
+    "status": "FT",
+    "headline": "브라질, 아이티 꺾고 3-0 승리",
+    "source": "네이버 스포츠",
+    "link": "https://www.youtube.com/results?search_query=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EC%95%84%EC%9D%B4%ED%8B%B0%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "highlightLink": "https://www.youtube.com/results?search_query=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EC%95%84%EC%9D%B4%ED%8B%B0%20%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%202026%20%EC%9B%94%EB%93%9C%EC%BB%B5",
+    "venue": "필라델피아 스타디움",
+    "publishedAt": "2026-06-20T09:30:00+09:00",
+    "homeGoals": [],
+    "awayGoals": []
+  },
+  {
     "id": "sco-mar",
     "group": "C",
     "stage": "조별리그 2차전",
